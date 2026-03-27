@@ -1,0 +1,3832 @@
+{
+  "status_code": 200,
+  "url": "https://api.openalex.org/works?search=%22attention+mechanism%22&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ccited_by_count%2Copen_access%2Cauthorships%2Cprimary_topic%2Ctopics%2Cabstract_inverted_index&per_page=5&page=1&sort=relevance_score%3Adesc&filter=has_abstract%3Atrue",
+  "body": {
+    "meta": {
+      "count": 246164,
+      "db_response_time_ms": 123,
+      "page": 1,
+      "per_page": 5,
+      "groups_count": null,
+      "cost_usd": 0.001
+    },
+    "results": [
+      {
+        "id": "https://openalex.org/W3212386989",
+        "doi": "https://doi.org/10.1007/s41095-022-0271-y",
+        "title": "Attention mechanisms in computer vision: A survey",
+        "publication_year": 2022,
+        "publication_date": "2022-03-15",
+        "cited_by_count": 2242,
+        "open_access": {
+          "is_oa": true,
+          "oa_status": "diamond",
+          "oa_url": "https://link.springer.com/content/pdf/10.1007/s41095-022-0271-y.pdf",
+          "any_repository_has_fulltext": true
+        },
+        "authorships": [
+          {
+            "author_position": "first",
+            "author": {
+              "id": "https://openalex.org/A5101135616",
+              "display_name": "Meng-Hao Guo",
+              "orcid": "https://orcid.org/0000-0002-4128-4594"
+            },
+            "institutions": [
+              {
+                "id": "https://openalex.org/I99065089",
+                "display_name": "Tsinghua University",
+                "ror": "https://ror.org/03cve4549",
+                "country_code": "CN",
+                "type": "education",
+                "lineage": [
+                  "https://openalex.org/I99065089"
+                ]
+              }
+            ],
+            "countries": [
+              "CN"
+            ],
+            "is_corresponding": true,
+            "raw_author_name": "Meng-Hao Guo",
+            "raw_affiliation_strings": [
+              "BNRist, Department of Computer Science and Technology, Tsinghua University, Beijing 100084, China",
+              "BNRist, Department of Computer Science and Technology, Tsinghua University, Beijing, 100084, China"
+            ],
+            "affiliations": [
+              {
+                "raw_affiliation_string": "BNRist, Department of Computer Science and Technology, Tsinghua University, Beijing 100084, China",
+                "institution_ids": [
+                  "https://openalex.org/I99065089"
+                ]
+              },
+              {
+                "raw_affiliation_string": "BNRist, Department of Computer Science and Technology, Tsinghua University, Beijing, 100084, China",
+                "institution_ids": [
+                  "https://openalex.org/I99065089"
+                ]
+              }
+            ]
+          },
+          {
+            "author_position": "middle",
+            "author": {
+              "id": "https://openalex.org/A5058414523",
+              "display_name": "Tian-Xing Xu",
+              "orcid": "https://orcid.org/0000-0002-9433-1980"
+            },
+            "institutions": [
+              {
+                "id": "https://openalex.org/I99065089",
+                "display_name": "Tsinghua University",
+                "ror": "https://ror.org/03cve4549",
+                "country_code": "CN",
+                "type": "education",
+                "lineage": [
+                  "https://openalex.org/I99065089"
+                ]
+              }
+            ],
+            "countries": [
+              "CN"
+            ],
+            "is_corresponding": false,
+            "raw_author_name": "Tian-Xing Xu",
+            "raw_affiliation_strings": [
+              "BNRist, Department of Computer Science and Technology, Tsinghua University, Beijing 100084, China",
+              "BNRist, Department of Computer Science and Technology, Tsinghua University, Beijing, 100084, China"
+            ],
+            "affiliations": [
+              {
+                "raw_affiliation_string": "BNRist, Department of Computer Science and Technology, Tsinghua University, Beijing 100084, China",
+                "institution_ids": [
+                  "https://openalex.org/I99065089"
+                ]
+              },
+              {
+                "raw_affiliation_string": "BNRist, Department of Computer Science and Technology, Tsinghua University, Beijing, 100084, China",
+                "institution_ids": [
+                  "https://openalex.org/I99065089"
+                ]
+              }
+            ]
+          },
+          {
+            "author_position": "middle",
+            "author": {
+              "id": "https://openalex.org/A5059524537",
+              "display_name": "Jiangjiang Liu",
+              "orcid": "https://orcid.org/0000-0002-1341-2763"
+            },
+            "institutions": [
+              {
+                "id": "https://openalex.org/I205237279",
+                "display_name": "Nankai University",
+                "ror": "https://ror.org/01y1kjr75",
+                "country_code": "CN",
+                "type": "education",
+                "lineage": [
+                  "https://openalex.org/I205237279"
+                ]
+              }
+            ],
+            "countries": [
+              "CN"
+            ],
+            "is_corresponding": false,
+            "raw_author_name": "Jiang-Jiang Liu",
+            "raw_affiliation_strings": [
+              "TKLNDST, College of Computer Science, Nankai University, Tianjin 300350, China",
+              "TKLNDST, College of Computer Science, Nankai University, Tianjin, 300350, China"
+            ],
+            "affiliations": [
+              {
+                "raw_affiliation_string": "TKLNDST, College of Computer Science, Nankai University, Tianjin 300350, China",
+                "institution_ids": [
+                  "https://openalex.org/I205237279"
+                ]
+              },
+              {
+                "raw_affiliation_string": "TKLNDST, College of Computer Science, Nankai University, Tianjin, 300350, China",
+                "institution_ids": [
+                  "https://openalex.org/I205237279"
+                ]
+              }
+            ]
+          },
+          {
+            "author_position": "middle",
+            "author": {
+              "id": "https://openalex.org/A5013917396",
+              "display_name": "Zheng-Ning Liu",
+              "orcid": null
+            },
+            "institutions": [
+              {
+                "id": "https://openalex.org/I99065089",
+                "display_name": "Tsinghua University",
+                "ror": "https://ror.org/03cve4549",
+                "country_code": "CN",
+                "type": "education",
+                "lineage": [
+                  "https://openalex.org/I99065089"
+                ]
+              }
+            ],
+            "countries": [
+              "CN"
+            ],
+            "is_corresponding": false,
+            "raw_author_name": "Zheng-Ning Liu",
+            "raw_affiliation_strings": [
+              "BNRist, Department of Computer Science and Technology, Tsinghua University, Beijing 100084, China",
+              "BNRist, Department of Computer Science and Technology, Tsinghua University, Beijing, 100084, China"
+            ],
+            "affiliations": [
+              {
+                "raw_affiliation_string": "BNRist, Department of Computer Science and Technology, Tsinghua University, Beijing 100084, China",
+                "institution_ids": [
+                  "https://openalex.org/I99065089"
+                ]
+              },
+              {
+                "raw_affiliation_string": "BNRist, Department of Computer Science and Technology, Tsinghua University, Beijing, 100084, China",
+                "institution_ids": [
+                  "https://openalex.org/I99065089"
+                ]
+              }
+            ]
+          },
+          {
+            "author_position": "middle",
+            "author": {
+              "id": "https://openalex.org/A5062345781",
+              "display_name": "Peng-Tao Jiang",
+              "orcid": "https://orcid.org/0000-0002-1786-4943"
+            },
+            "institutions": [
+              {
+                "id": "https://openalex.org/I205237279",
+                "display_name": "Nankai University",
+                "ror": "https://ror.org/01y1kjr75",
+                "country_code": "CN",
+                "type": "education",
+                "lineage": [
+                  "https://openalex.org/I205237279"
+                ]
+              }
+            ],
+            "countries": [
+              "CN"
+            ],
+            "is_corresponding": false,
+            "raw_author_name": "Peng-Tao Jiang",
+            "raw_affiliation_strings": [
+              "TKLNDST, College of Computer Science, Nankai University, Tianjin 300350, China",
+              "TKLNDST, College of Computer Science, Nankai University, Tianjin, 300350, China"
+            ],
+            "affiliations": [
+              {
+                "raw_affiliation_string": "TKLNDST, College of Computer Science, Nankai University, Tianjin 300350, China",
+                "institution_ids": [
+                  "https://openalex.org/I205237279"
+                ]
+              },
+              {
+                "raw_affiliation_string": "TKLNDST, College of Computer Science, Nankai University, Tianjin, 300350, China",
+                "institution_ids": [
+                  "https://openalex.org/I205237279"
+                ]
+              }
+            ]
+          },
+          {
+            "author_position": "middle",
+            "author": {
+              "id": "https://openalex.org/A5067592804",
+              "display_name": "Tai‐Jiang Mu",
+              "orcid": "https://orcid.org/0000-0002-9197-346X"
+            },
+            "institutions": [
+              {
+                "id": "https://openalex.org/I99065089",
+                "display_name": "Tsinghua University",
+                "ror": "https://ror.org/03cve4549",
+                "country_code": "CN",
+                "type": "education",
+                "lineage": [
+                  "https://openalex.org/I99065089"
+                ]
+              }
+            ],
+            "countries": [
+              "CN"
+            ],
+            "is_corresponding": false,
+            "raw_author_name": "Tai-Jiang Mu",
+            "raw_affiliation_strings": [
+              "BNRist, Department of Computer Science and Technology, Tsinghua University, Beijing 100084, China",
+              "BNRist, Department of Computer Science and Technology, Tsinghua University, Beijing, 100084, China"
+            ],
+            "affiliations": [
+              {
+                "raw_affiliation_string": "BNRist, Department of Computer Science and Technology, Tsinghua University, Beijing 100084, China",
+                "institution_ids": [
+                  "https://openalex.org/I99065089"
+                ]
+              },
+              {
+                "raw_affiliation_string": "BNRist, Department of Computer Science and Technology, Tsinghua University, Beijing, 100084, China",
+                "institution_ids": [
+                  "https://openalex.org/I99065089"
+                ]
+              }
+            ]
+          },
+          {
+            "author_position": "middle",
+            "author": {
+              "id": "https://openalex.org/A5049883689",
+              "display_name": "Song–Hai Zhang",
+              "orcid": "https://orcid.org/0000-0003-0460-1586"
+            },
+            "institutions": [
+              {
+                "id": "https://openalex.org/I99065089",
+                "display_name": "Tsinghua University",
+                "ror": "https://ror.org/03cve4549",
+                "country_code": "CN",
+                "type": "education",
+                "lineage": [
+                  "https://openalex.org/I99065089"
+                ]
+              }
+            ],
+            "countries": [
+              "CN"
+            ],
+            "is_corresponding": false,
+            "raw_author_name": "Song-Hai Zhang",
+            "raw_affiliation_strings": [
+              "BNRist, Department of Computer Science and Technology, Tsinghua University, Beijing 100084, China",
+              "BNRist, Department of Computer Science and Technology, Tsinghua University, Beijing, 100084, China"
+            ],
+            "affiliations": [
+              {
+                "raw_affiliation_string": "BNRist, Department of Computer Science and Technology, Tsinghua University, Beijing 100084, China",
+                "institution_ids": [
+                  "https://openalex.org/I99065089"
+                ]
+              },
+              {
+                "raw_affiliation_string": "BNRist, Department of Computer Science and Technology, Tsinghua University, Beijing, 100084, China",
+                "institution_ids": [
+                  "https://openalex.org/I99065089"
+                ]
+              }
+            ]
+          },
+          {
+            "author_position": "middle",
+            "author": {
+              "id": "https://openalex.org/A5111609957",
+              "display_name": "Ralph R. Martin",
+              "orcid": null
+            },
+            "institutions": [
+              {
+                "id": "https://openalex.org/I79510175",
+                "display_name": "Cardiff University",
+                "ror": "https://ror.org/03kk7td41",
+                "country_code": "GB",
+                "type": "education",
+                "lineage": [
+                  "https://openalex.org/I79510175"
+                ]
+              }
+            ],
+            "countries": [
+              "GB"
+            ],
+            "is_corresponding": false,
+            "raw_author_name": "Ralph R. Martin",
+            "raw_affiliation_strings": [
+              "School of Computer Science and Informatics, Cardiff University, Cardiff, UK"
+            ],
+            "affiliations": [
+              {
+                "raw_affiliation_string": "School of Computer Science and Informatics, Cardiff University, Cardiff, UK",
+                "institution_ids": [
+                  "https://openalex.org/I79510175"
+                ]
+              }
+            ]
+          },
+          {
+            "author_position": "middle",
+            "author": {
+              "id": "https://openalex.org/A5037131575",
+              "display_name": "Ming‐Ming Cheng",
+              "orcid": "https://orcid.org/0000-0001-5550-8758"
+            },
+            "institutions": [
+              {
+                "id": "https://openalex.org/I205237279",
+                "display_name": "Nankai University",
+                "ror": "https://ror.org/01y1kjr75",
+                "country_code": "CN",
+                "type": "education",
+                "lineage": [
+                  "https://openalex.org/I205237279"
+                ]
+              }
+            ],
+            "countries": [
+              "CN"
+            ],
+            "is_corresponding": false,
+            "raw_author_name": "Ming-Ming Cheng",
+            "raw_affiliation_strings": [
+              "TKLNDST, College of Computer Science, Nankai University, Tianjin 300350, China",
+              "TKLNDST, College of Computer Science, Nankai University, Tianjin, 300350, China"
+            ],
+            "affiliations": [
+              {
+                "raw_affiliation_string": "TKLNDST, College of Computer Science, Nankai University, Tianjin 300350, China",
+                "institution_ids": [
+                  "https://openalex.org/I205237279"
+                ]
+              },
+              {
+                "raw_affiliation_string": "TKLNDST, College of Computer Science, Nankai University, Tianjin, 300350, China",
+                "institution_ids": [
+                  "https://openalex.org/I205237279"
+                ]
+              }
+            ]
+          },
+          {
+            "author_position": "last",
+            "author": {
+              "id": "https://openalex.org/A5037233582",
+              "display_name": "Shi‐Min Hu",
+              "orcid": "https://orcid.org/0000-0001-7507-6542"
+            },
+            "institutions": [
+              {
+                "id": "https://openalex.org/I99065089",
+                "display_name": "Tsinghua University",
+                "ror": "https://ror.org/03cve4549",
+                "country_code": "CN",
+                "type": "education",
+                "lineage": [
+                  "https://openalex.org/I99065089"
+                ]
+              }
+            ],
+            "countries": [
+              "CN"
+            ],
+            "is_corresponding": false,
+            "raw_author_name": "Shi-Min Hu",
+            "raw_affiliation_strings": [
+              "BNRist, Department of Computer Science and Technology, Tsinghua University, Beijing 100084, China",
+              "BNRist, Department of Computer Science and Technology, Tsinghua University, Beijing, 100084, China"
+            ],
+            "affiliations": [
+              {
+                "raw_affiliation_string": "BNRist, Department of Computer Science and Technology, Tsinghua University, Beijing 100084, China",
+                "institution_ids": [
+                  "https://openalex.org/I99065089"
+                ]
+              },
+              {
+                "raw_affiliation_string": "BNRist, Department of Computer Science and Technology, Tsinghua University, Beijing, 100084, China",
+                "institution_ids": [
+                  "https://openalex.org/I99065089"
+                ]
+              }
+            ]
+          }
+        ],
+        "primary_topic": {
+          "id": "https://openalex.org/T11605",
+          "display_name": "Visual Attention and Saliency Detection",
+          "score": 1.0,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1707",
+            "display_name": "Computer Vision and Pattern Recognition"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        "topics": [
+          {
+            "id": "https://openalex.org/T11605",
+            "display_name": "Visual Attention and Saliency Detection",
+            "score": 1.0,
+            "subfield": {
+              "id": "https://openalex.org/subfields/1707",
+              "display_name": "Computer Vision and Pattern Recognition"
+            },
+            "field": {
+              "id": "https://openalex.org/fields/17",
+              "display_name": "Computer Science"
+            },
+            "domain": {
+              "id": "https://openalex.org/domains/3",
+              "display_name": "Physical Sciences"
+            }
+          },
+          {
+            "id": "https://openalex.org/T10036",
+            "display_name": "Advanced Neural Network Applications",
+            "score": 0.9976999759674072,
+            "subfield": {
+              "id": "https://openalex.org/subfields/1707",
+              "display_name": "Computer Vision and Pattern Recognition"
+            },
+            "field": {
+              "id": "https://openalex.org/fields/17",
+              "display_name": "Computer Science"
+            },
+            "domain": {
+              "id": "https://openalex.org/domains/3",
+              "display_name": "Physical Sciences"
+            }
+          },
+          {
+            "id": "https://openalex.org/T11992",
+            "display_name": "CCD and CMOS Imaging Sensors",
+            "score": 0.996399998664856,
+            "subfield": {
+              "id": "https://openalex.org/subfields/2208",
+              "display_name": "Electrical and Electronic Engineering"
+            },
+            "field": {
+              "id": "https://openalex.org/fields/22",
+              "display_name": "Engineering"
+            },
+            "domain": {
+              "id": "https://openalex.org/domains/3",
+              "display_name": "Physical Sciences"
+            }
+          }
+        ],
+        "abstract_inverted_index": {
+          "Humans": [
+            0
+          ],
+          "can": [
+            1,
+            38
+          ],
+          "naturally": [
+            2
+          ],
+          "and": [
+            3,
+            79,
+            97,
+            111
+          ],
+          "effectively": [
+            4
+          ],
+          "find": [
+            5
+          ],
+          "salient": [
+            6
+          ],
+          "regions": [
+            7
+          ],
+          "in": [
+            8,
+            60,
+            94
+          ],
+          "complex": [
+            9
+          ],
+          "scenes.": [
+            10
+          ],
+          "Motivated": [
+            11
+          ],
+          "by": [
+            12
+          ],
+          "this": [
+            13,
+            27,
+            83
+          ],
+          "observation,": [
+            14
+          ],
+          "attention": [
+            15,
+            36,
+            92,
+            130
+          ],
+          "mechanisms": [
+            16,
+            55,
+            93
+          ],
+          "were": [
+            17
+          ],
+          "introduced": [
+            18
+          ],
+          "into": [
+            19
+          ],
+          "computer": [
+            20,
+            95
+          ],
+          "vision": [
+            21,
+            96
+          ],
+          "with": [
+            22
+          ],
+          "the": [
+            23,
+            30,
+            51
+          ],
+          "aim": [
+            24
+          ],
+          "of": [
+            25,
+            29,
+            50,
+            90
+          ],
+          "imitating": [
+            26
+          ],
+          "aspect": [
+            28
+          ],
+          "human": [
+            31
+          ],
+          "visual": [
+            32,
+            62
+          ],
+          "system.": [
+            33
+          ],
+          "Such": [
+            34
+          ],
+          "an": [
+            35
+          ],
+          "mechanism": [
+            37,
+            131
+          ],
+          "be": [
+            39
+          ],
+          "regarded": [
+            40
+          ],
+          "as": [
+            41,
+            104
+          ],
+          "a": [
+            42,
+            87,
+            114
+          ],
+          "dynamic": [
+            43
+          ],
+          "weight": [
+            44
+          ],
+          "adjustment": [
+            45
+          ],
+          "process": [
+            46
+          ],
+          "based": [
+            47
+          ],
+          "on": [
+            48
+          ],
+          "features": [
+            49
+          ],
+          "input": [
+            52
+          ],
+          "image.": [
+            53
+          ],
+          "Attention": [
+            54
+          ],
+          "have": [
+            56
+          ],
+          "achieved": [
+            57
+          ],
+          "great": [
+            58
+          ],
+          "success": [
+            59
+          ],
+          "many": [
+            61
+          ],
+          "tasks,": [
+            63,
+            78
+          ],
+          "including": [
+            64
+          ],
+          "image": [
+            65,
+            73
+          ],
+          "classification,": [
+            66
+          ],
+          "object": [
+            67
+          ],
+          "detection,": [
+            68
+          ],
+          "semantic": [
+            69
+          ],
+          "segmentation,": [
+            70
+          ],
+          "video": [
+            71
+          ],
+          "understanding,": [
+            72
+          ],
+          "generation,": [
+            74
+          ],
+          "3D": [
+            75
+          ],
+          "vision,": [
+            76
+          ],
+          "multimodal": [
+            77
+          ],
+          "self-supervised": [
+            80
+          ],
+          "learning.": [
+            81
+          ],
+          "In": [
+            82
+          ],
+          "survey,": [
+            84
+          ],
+          "we": [
+            85
+          ],
+          "provide": [
+            86
+          ],
+          "comprehensive": [
+            88
+          ],
+          "review": [
+            89
+          ],
+          "various": [
+            91
+          ],
+          "categorize": [
+            98
+          ],
+          "them": [
+            99
+          ],
+          "according": [
+            100
+          ],
+          "to": [
+            101,
+            120
+          ],
+          "approach,": [
+            102
+          ],
+          "such": [
+            103
+          ],
+          "channel": [
+            105
+          ],
+          "attention,": [
+            106,
+            108,
+            110
+          ],
+          "spatial": [
+            107
+          ],
+          "temporal": [
+            109
+          ],
+          "branch": [
+            112
+          ],
+          "attention;": [
+            113
+          ],
+          "related": [
+            115,
+            122
+          ],
+          "repository": [
+            116
+          ],
+          "https://github.com/MenghaoGuo/Awesome-Vision-Attentions": [
+            117
+          ],
+          "is": [
+            118
+          ],
+          "dedicated": [
+            119
+          ],
+          "collecting": [
+            121
+          ],
+          "work.": [
+            123
+          ],
+          "We": [
+            124
+          ],
+          "also": [
+            125
+          ],
+          "suggest": [
+            126
+          ],
+          "future": [
+            127
+          ],
+          "directions": [
+            128
+          ],
+          "for": [
+            129
+          ],
+          "research.": [
+            132
+          ]
+        }
+      },
+      {
+        "id": "https://openalex.org/W639708223",
+        "doi": "https://doi.org/10.1109/tpami.2016.2577031",
+        "title": "Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks",
+        "publication_year": 2016,
+        "publication_date": "2016-06-06",
+        "cited_by_count": 52848,
+        "open_access": {
+          "is_oa": false,
+          "oa_status": "closed",
+          "oa_url": null,
+          "any_repository_has_fulltext": false
+        },
+        "authorships": [
+          {
+            "author_position": "first",
+            "author": {
+              "id": "https://openalex.org/A5100824251",
+              "display_name": "Shaoqing Ren",
+              "orcid": null
+            },
+            "institutions": [
+              {
+                "id": "https://openalex.org/I126520041",
+                "display_name": "University of Science and Technology of China",
+                "ror": "https://ror.org/04c4dkn09",
+                "country_code": "CN",
+                "type": "education",
+                "lineage": [
+                  "https://openalex.org/I126520041",
+                  "https://openalex.org/I19820366"
+                ]
+              }
+            ],
+            "countries": [
+              "CN"
+            ],
+            "is_corresponding": true,
+            "raw_author_name": "Shaoqing Ren",
+            "raw_affiliation_strings": [
+              "University of Science and Technology of China, Hefei, Anhui, China",
+              "University of Science and Technology of China,Hefei,Anhui,China"
+            ],
+            "affiliations": [
+              {
+                "raw_affiliation_string": "University of Science and Technology of China, Hefei, Anhui, China",
+                "institution_ids": [
+                  "https://openalex.org/I126520041"
+                ]
+              },
+              {
+                "raw_affiliation_string": "University of Science and Technology of China,Hefei,Anhui,China",
+                "institution_ids": [
+                  "https://openalex.org/I126520041"
+                ]
+              }
+            ]
+          },
+          {
+            "author_position": "middle",
+            "author": {
+              "id": "https://openalex.org/A5100700361",
+              "display_name": "Kaiming He",
+              "orcid": "https://orcid.org/0000-0001-7318-9658"
+            },
+            "institutions": [
+              {
+                "id": "https://openalex.org/I4210113369",
+                "display_name": "Microsoft Research Asia (China)",
+                "ror": "https://ror.org/0300m5276",
+                "country_code": "CN",
+                "type": "company",
+                "lineage": [
+                  "https://openalex.org/I1290206253",
+                  "https://openalex.org/I4210113369"
+                ]
+              },
+              {
+                "id": "https://openalex.org/I1290206253",
+                "display_name": "Microsoft (United States)",
+                "ror": "https://ror.org/00d0nc645",
+                "country_code": "US",
+                "type": "company",
+                "lineage": [
+                  "https://openalex.org/I1290206253"
+                ]
+              }
+            ],
+            "countries": [
+              "CN",
+              "US"
+            ],
+            "is_corresponding": false,
+            "raw_author_name": "Kaiming He",
+            "raw_affiliation_strings": [
+              "Visual Computing Group, Microsoft Research, Beijing, China",
+              "[Visual Computing group, Microsoft Research, Beijing, China]"
+            ],
+            "affiliations": [
+              {
+                "raw_affiliation_string": "Visual Computing Group, Microsoft Research, Beijing, China",
+                "institution_ids": [
+                  "https://openalex.org/I4210113369"
+                ]
+              },
+              {
+                "raw_affiliation_string": "[Visual Computing group, Microsoft Research, Beijing, China]",
+                "institution_ids": [
+                  "https://openalex.org/I1290206253"
+                ]
+              }
+            ]
+          },
+          {
+            "author_position": "middle",
+            "author": {
+              "id": "https://openalex.org/A5049246408",
+              "display_name": "Ross Girshick",
+              "orcid": null
+            },
+            "institutions": [
+              {
+                "id": "https://openalex.org/I4210114444",
+                "display_name": "Meta (United States)",
+                "ror": "https://ror.org/01zbnvs85",
+                "country_code": "US",
+                "type": "company",
+                "lineage": [
+                  "https://openalex.org/I4210114444"
+                ]
+              }
+            ],
+            "countries": [
+              "US"
+            ],
+            "is_corresponding": false,
+            "raw_author_name": "Ross Girshick",
+            "raw_affiliation_strings": [
+              "Facebook AI Research, Seattle, WA 98109",
+              "Facebook AI Research, Seattle, WA 98109#TAB#"
+            ],
+            "affiliations": [
+              {
+                "raw_affiliation_string": "Facebook AI Research, Seattle, WA 98109",
+                "institution_ids": [
+                  "https://openalex.org/I4210114444"
+                ]
+              },
+              {
+                "raw_affiliation_string": "Facebook AI Research, Seattle, WA 98109#TAB#",
+                "institution_ids": [
+                  "https://openalex.org/I4210114444"
+                ]
+              }
+            ]
+          },
+          {
+            "author_position": "last",
+            "author": {
+              "id": "https://openalex.org/A5101425421",
+              "display_name": "Jian Sun",
+              "orcid": "https://orcid.org/0000-0001-6270-2698"
+            },
+            "institutions": [
+              {
+                "id": "https://openalex.org/I1290206253",
+                "display_name": "Microsoft (United States)",
+                "ror": "https://ror.org/00d0nc645",
+                "country_code": "US",
+                "type": "company",
+                "lineage": [
+                  "https://openalex.org/I1290206253"
+                ]
+              },
+              {
+                "id": "https://openalex.org/I4210113369",
+                "display_name": "Microsoft Research Asia (China)",
+                "ror": "https://ror.org/0300m5276",
+                "country_code": "CN",
+                "type": "company",
+                "lineage": [
+                  "https://openalex.org/I1290206253",
+                  "https://openalex.org/I4210113369"
+                ]
+              }
+            ],
+            "countries": [
+              "CN",
+              "US"
+            ],
+            "is_corresponding": false,
+            "raw_author_name": "Jian Sun",
+            "raw_affiliation_strings": [
+              "Visual Computing Group, Microsoft Research, Beijing, China",
+              "[Visual Computing group, Microsoft Research, Beijing, China]"
+            ],
+            "affiliations": [
+              {
+                "raw_affiliation_string": "Visual Computing Group, Microsoft Research, Beijing, China",
+                "institution_ids": [
+                  "https://openalex.org/I4210113369"
+                ]
+              },
+              {
+                "raw_affiliation_string": "[Visual Computing group, Microsoft Research, Beijing, China]",
+                "institution_ids": [
+                  "https://openalex.org/I1290206253"
+                ]
+              }
+            ]
+          }
+        ],
+        "primary_topic": {
+          "id": "https://openalex.org/T10036",
+          "display_name": "Advanced Neural Network Applications",
+          "score": 0.9998999834060669,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1707",
+            "display_name": "Computer Vision and Pattern Recognition"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        "topics": [
+          {
+            "id": "https://openalex.org/T10036",
+            "display_name": "Advanced Neural Network Applications",
+            "score": 0.9998999834060669,
+            "subfield": {
+              "id": "https://openalex.org/subfields/1707",
+              "display_name": "Computer Vision and Pattern Recognition"
+            },
+            "field": {
+              "id": "https://openalex.org/fields/17",
+              "display_name": "Computer Science"
+            },
+            "domain": {
+              "id": "https://openalex.org/domains/3",
+              "display_name": "Physical Sciences"
+            }
+          },
+          {
+            "id": "https://openalex.org/T10627",
+            "display_name": "Advanced Image and Video Retrieval Techniques",
+            "score": 0.9995999932289124,
+            "subfield": {
+              "id": "https://openalex.org/subfields/1707",
+              "display_name": "Computer Vision and Pattern Recognition"
+            },
+            "field": {
+              "id": "https://openalex.org/fields/17",
+              "display_name": "Computer Science"
+            },
+            "domain": {
+              "id": "https://openalex.org/domains/3",
+              "display_name": "Physical Sciences"
+            }
+          },
+          {
+            "id": "https://openalex.org/T10331",
+            "display_name": "Video Surveillance and Tracking Methods",
+            "score": 0.9983999729156494,
+            "subfield": {
+              "id": "https://openalex.org/subfields/1707",
+              "display_name": "Computer Vision and Pattern Recognition"
+            },
+            "field": {
+              "id": "https://openalex.org/fields/17",
+              "display_name": "Computer Science"
+            },
+            "domain": {
+              "id": "https://openalex.org/domains/3",
+              "display_name": "Physical Sciences"
+            }
+          }
+        ],
+        "abstract_inverted_index": {
+          "State-of-the-art": [
+            0
+          ],
+          "object": [
+            1,
+            11,
+            72,
+            161
+          ],
+          "detection": [
+            2,
+            28,
+            54,
+            143,
+            162
+          ],
+          "networks": [
+            3,
+            120
+          ],
+          "depend": [
+            4
+          ],
+          "on": [
+            5,
+            155,
+            164
+          ],
+          "region": [
+            6,
+            31,
+            60,
+            88
+          ],
+          "proposal": [
+            7,
+            32
+          ],
+          "algorithms": [
+            8
+          ],
+          "to": [
+            9,
+            85,
+            132
+          ],
+          "hypothesize": [
+            10
+          ],
+          "locations.": [
+            12
+          ],
+          "Advances": [
+            13
+          ],
+          "like": [
+            14
+          ],
+          "SPPnet": [
+            15
+          ],
+          "[1]": [
+            16
+          ],
+          "and": [
+            17,
+            74,
+            102,
+            169,
+            181,
+            187
+          ],
+          "Fast": [
+            18,
+            94,
+            103
+          ],
+          "R-CNN": [
+            19,
+            95,
+            104,
+            186
+          ],
+          "[2]": [
+            20
+          ],
+          "have": [
+            21
+          ],
+          "reduced": [
+            22
+          ],
+          "the": [
+            23,
+            53,
+            114,
+            124,
+            128,
+            135,
+            190,
+            193
+          ],
+          "running": [
+            24
+          ],
+          "time": [
+            25
+          ],
+          "of": [
+            26,
+            118,
+            149,
+            192
+          ],
+          "these": [
+            27
+          ],
+          "networks,": [
+            29
+          ],
+          "exposing": [
+            30
+          ],
+          "computation": [
+            33
+          ],
+          "as": [
+            34
+          ],
+          "a": [
+            35,
+            42,
+            65,
+            106,
+            146,
+            156
+          ],
+          "bottleneck.": [
+            36
+          ],
+          "In": [
+            37,
+            179
+          ],
+          "this": [
+            38
+          ],
+          "work,": [
+            39
+          ],
+          "we": [
+            40
+          ],
+          "introduce": [
+            41
+          ],
+          "Region": [
+            43
+          ],
+          "Proposal": [
+            44
+          ],
+          "Network": [
+            45
+          ],
+          "(RPN)": [
+            46
+          ],
+          "that": [
+            47,
+            69
+          ],
+          "shares": [
+            48
+          ],
+          "full-image": [
+            49
+          ],
+          "convolutional": [
+            50,
+            67,
+            112
+          ],
+          "features": [
+            51
+          ],
+          "with": [
+            52,
+            121,
+            173
+          ],
+          "network,": [
+            55
+          ],
+          "thus": [
+            56
+          ],
+          "enabling": [
+            57
+          ],
+          "nearly": [
+            58
+          ],
+          "cost-free": [
+            59
+          ],
+          "proposals.": [
+            61
+          ],
+          "An": [
+            62
+          ],
+          "RPN": [
+            63,
+            81,
+            101,
+            125,
+            188
+          ],
+          "is": [
+            64,
+            82
+          ],
+          "fully": [
+            66
+          ],
+          "network": [
+            68,
+            108,
+            130
+          ],
+          "simultaneously": [
+            70
+          ],
+          "predicts": [
+            71
+          ],
+          "bounds": [
+            73
+          ],
+          "objectness": [
+            75
+          ],
+          "scores": [
+            76
+          ],
+          "at": [
+            77
+          ],
+          "each": [
+            78
+          ],
+          "position.": [
+            79
+          ],
+          "The": [
+            80
+          ],
+          "trained": [
+            83
+          ],
+          "end-to-end": [
+            84
+          ],
+          "generate": [
+            86
+          ],
+          "high-quality": [
+            87
+          ],
+          "proposals,": [
+            89
+          ],
+          "which": [
+            90
+          ],
+          "are": [
+            91,
+            189
+          ],
+          "used": [
+            92
+          ],
+          "by": [
+            93,
+            109
+          ],
+          "for": [
+            96
+          ],
+          "detection.": [
+            97
+          ],
+          "We": [
+            98
+          ],
+          "further": [
+            99
+          ],
+          "merge": [
+            100
+          ],
+          "into": [
+            105
+          ],
+          "single": [
+            107
+          ],
+          "sharing": [
+            110
+          ],
+          "their": [
+            111
+          ],
+          "features-using": [
+            113
+          ],
+          "recently": [
+            115
+          ],
+          "popular": [
+            116
+          ],
+          "terminology": [
+            117
+          ],
+          "neural": [
+            119
+          ],
+          "'attention'": [
+            122
+          ],
+          "mechanisms,": [
+            123
+          ],
+          "component": [
+            126
+          ],
+          "tells": [
+            127
+          ],
+          "unified": [
+            129
+          ],
+          "where": [
+            131
+          ],
+          "look.": [
+            133
+          ],
+          "For": [
+            134
+          ],
+          "very": [
+            136
+          ],
+          "deep": [
+            137
+          ],
+          "VGG-16": [
+            138
+          ],
+          "model": [
+            139
+          ],
+          "[3]": [
+            140
+          ],
+          ",": [
+            141
+          ],
+          "our": [
+            142
+          ],
+          "system": [
+            144
+          ],
+          "has": [
+            145,
+            201
+          ],
+          "frame": [
+            147
+          ],
+          "rate": [
+            148
+          ],
+          "5": [
+            150
+          ],
+          "fps": [
+            151
+          ],
+          "(including": [
+            152
+          ],
+          "all": [
+            153
+          ],
+          "steps)": [
+            154
+          ],
+          "GPU,": [
+            157
+          ],
+          "while": [
+            158
+          ],
+          "achieving": [
+            159
+          ],
+          "state-of-the-art": [
+            160
+          ],
+          "accuracy": [
+            163
+          ],
+          "PASCAL": [
+            165
+          ],
+          "VOC": [
+            166
+          ],
+          "2007,": [
+            167
+          ],
+          "2012,": [
+            168
+          ],
+          "MS": [
+            170
+          ],
+          "COCO": [
+            171,
+            182
+          ],
+          "datasets": [
+            172
+          ],
+          "only": [
+            174
+          ],
+          "300": [
+            175
+          ],
+          "proposals": [
+            176
+          ],
+          "per": [
+            177
+          ],
+          "image.": [
+            178
+          ],
+          "ILSVRC": [
+            180
+          ],
+          "2015": [
+            183
+          ],
+          "competitions,": [
+            184
+          ],
+          "Faster": [
+            185
+          ],
+          "foundations": [
+            191
+          ],
+          "1st-place": [
+            194
+          ],
+          "winning": [
+            195
+          ],
+          "entries": [
+            196
+          ],
+          "in": [
+            197
+          ],
+          "several": [
+            198
+          ],
+          "tracks.": [
+            199
+          ],
+          "Code": [
+            200
+          ],
+          "been": [
+            202
+          ],
+          "made": [
+            203
+          ],
+          "publicly": [
+            204
+          ],
+          "available.": [
+            205
+          ]
+        }
+      },
+      {
+        "id": "https://openalex.org/W2126953888",
+        "doi": "https://doi.org/10.1037/h0032198",
+        "title": "Cognitive and attentional mechanisms in delay of gratification.",
+        "publication_year": 1972,
+        "publication_date": "1972-01-01",
+        "cited_by_count": 1348,
+        "open_access": {
+          "is_oa": false,
+          "oa_status": "closed",
+          "oa_url": null,
+          "any_repository_has_fulltext": false
+        },
+        "authorships": [
+          {
+            "author_position": "first",
+            "author": {
+              "id": "https://openalex.org/A5015918546",
+              "display_name": "Walter Mischel",
+              "orcid": null
+            },
+            "institutions": [
+              {
+                "id": "https://openalex.org/I97018004",
+                "display_name": "Stanford University",
+                "ror": "https://ror.org/00f54p054",
+                "country_code": "US",
+                "type": "education",
+                "lineage": [
+                  "https://openalex.org/I97018004"
+                ]
+              }
+            ],
+            "countries": [
+              "US"
+            ],
+            "is_corresponding": true,
+            "raw_author_name": "Walter Mischel",
+            "raw_affiliation_strings": [
+              "STANFORD U"
+            ],
+            "affiliations": [
+              {
+                "raw_affiliation_string": "STANFORD U",
+                "institution_ids": [
+                  "https://openalex.org/I97018004"
+                ]
+              }
+            ]
+          },
+          {
+            "author_position": "middle",
+            "author": {
+              "id": "https://openalex.org/A5077362072",
+              "display_name": "Ebbe Β. Ebbesen",
+              "orcid": null
+            },
+            "institutions": [],
+            "countries": [],
+            "is_corresponding": false,
+            "raw_author_name": "Ebbe B. Ebbesen",
+            "raw_affiliation_strings": [],
+            "affiliations": []
+          },
+          {
+            "author_position": "last",
+            "author": {
+              "id": "https://openalex.org/A5108516132",
+              "display_name": "Antonette Raskoff Zeiss",
+              "orcid": null
+            },
+            "institutions": [],
+            "countries": [],
+            "is_corresponding": false,
+            "raw_author_name": "Antonette Raskoff Zeiss",
+            "raw_affiliation_strings": [],
+            "affiliations": []
+          }
+        ],
+        "primary_topic": {
+          "id": "https://openalex.org/T10182",
+          "display_name": "Child and Adolescent Psychosocial and Emotional Development",
+          "score": 0.9898999929428101,
+          "subfield": {
+            "id": "https://openalex.org/subfields/3203",
+            "display_name": "Clinical Psychology"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/32",
+            "display_name": "Psychology"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/2",
+            "display_name": "Social Sciences"
+          }
+        },
+        "topics": [
+          {
+            "id": "https://openalex.org/T10182",
+            "display_name": "Child and Adolescent Psychosocial and Emotional Development",
+            "score": 0.9898999929428101,
+            "subfield": {
+              "id": "https://openalex.org/subfields/3203",
+              "display_name": "Clinical Psychology"
+            },
+            "field": {
+              "id": "https://openalex.org/fields/32",
+              "display_name": "Psychology"
+            },
+            "domain": {
+              "id": "https://openalex.org/domains/2",
+              "display_name": "Social Sciences"
+            }
+          },
+          {
+            "id": "https://openalex.org/T10656",
+            "display_name": "Child and Animal Learning Development",
+            "score": 0.9812999963760376,
+            "subfield": {
+              "id": "https://openalex.org/subfields/3204",
+              "display_name": "Developmental and Educational Psychology"
+            },
+            "field": {
+              "id": "https://openalex.org/fields/32",
+              "display_name": "Psychology"
+            },
+            "domain": {
+              "id": "https://openalex.org/domains/2",
+              "display_name": "Social Sciences"
+            }
+          },
+          {
+            "id": "https://openalex.org/T10826",
+            "display_name": "Behavioral and Psychological Studies",
+            "score": 0.9796000123023987,
+            "subfield": {
+              "id": "https://openalex.org/subfields/3204",
+              "display_name": "Developmental and Educational Psychology"
+            },
+            "field": {
+              "id": "https://openalex.org/fields/32",
+              "display_name": "Psychology"
+            },
+            "domain": {
+              "id": "https://openalex.org/domains/2",
+              "display_name": "Social Sciences"
+            }
+          }
+        ],
+        "abstract_inverted_index": {
+          "Three": [
+            0
+          ],
+          "experiments": [
+            1
+          ],
+          "investigated": [
+            2
+          ],
+          "attentional": [
+            3,
+            187
+          ],
+          "and": [
+            4,
+            41,
+            154,
+            188,
+            228
+          ],
+          "cognitive": [
+            5,
+            42,
+            113,
+            189
+          ],
+          "mechanisms": [
+            6,
+            190,
+            222
+          ],
+          "in": [
+            7,
+            223
+          ],
+          "delay": [
+            8,
+            128,
+            152,
+            183,
+            213,
+            225
+          ],
+          "of": [
+            9,
+            39,
+            51,
+            68,
+            81,
+            181,
+            184,
+            195,
+            201,
+            220,
+            226
+          ],
+          "gratification": [
+            10,
+            185,
+            227
+          ],
+          "In": [
+            11,
+            74,
+            137
+          ],
+          "each": [
+            12
+          ],
+          "study": [
+            13
+          ],
+          "preschool": [
+            14,
+            54
+          ],
+          "children": [
+            15,
+            55,
+            85,
+            168
+          ],
+          "could": [
+            16
+          ],
+          "obtain": [
+            17
+          ],
+          "a": [
+            18,
+            28,
+            90,
+            217
+          ],
+          "less": [
+            19,
+            70
+          ],
+          "preferred": [
+            20,
+            30,
+            59,
+            71,
+            91
+          ],
+          "reward": [
+            21,
+            33,
+            46,
+            61,
+            92
+          ],
+          "immediately": [
+            22
+          ],
+          "or": [
+            23,
+            210
+          ],
+          "continue": [
+            24
+          ],
+          "waiting": [
+            25
+          ],
+          "indefinitely": [
+            26
+          ],
+          "for": [
+            27,
+            57,
+            65,
+            89,
+            147
+          ],
+          "more": [
+            29
+          ],
+          "but": [
+            31
+          ],
+          "delayed": [
+            32,
+            60,
+            141
+          ],
+          "Experiment": [
+            34,
+            107,
+            138
+          ],
+          "I": [
+            35
+          ],
+          "compared": [
+            36
+          ],
+          "the": [
+            37,
+            45,
+            49,
+            58,
+            66,
+            69,
+            98,
+            134,
+            140,
+            151,
+            155,
+            167,
+            172,
+            179,
+            193,
+            196,
+            199,
+            207
+          ],
+          "effects": [
+            38
+          ],
+          "external": [
+            40
+          ],
+          "distraction": [
+            43
+          ],
+          "from": [
+            44,
+            78,
+            97,
+            206
+          ],
+          "objects": [
+            47
+          ],
+          "on": [
+            48
+          ],
+          "length": [
+            50,
+            180,
+            200
+          ],
+          "time": [
+            52
+          ],
+          "which": [
+            53,
+            191
+          ],
+          "waited": [
+            56,
+            86
+          ],
+          "before": [
+            62
+          ],
+          "forfeiting": [
+            63
+          ],
+          "it": [
+            64
+          ],
+          "sake": [
+            67
+          ],
+          "immediate": [
+            72
+          ],
+          "one.": [
+            73
+          ],
+          "accord": [
+            75
+          ],
+          "with": [
+            76
+          ],
+          "predictions": [
+            77
+          ],
+          "an": [
+            79
+          ],
+          "extension": [
+            80
+          ],
+          "frustrative": [
+            82
+          ],
+          "nonreward": [
+            83
+          ],
+          "theory,": [
+            84
+          ],
+          "much": [
+            87
+          ],
+          "longer": [
+            88
+          ],
+          "when": [
+            93,
+            101
+          ],
+          "they": [
+            94,
+            102
+          ],
+          "were": [
+            95,
+            143
+          ],
+          "distracted": [
+            96
+          ],
+          "rewards": [
+            99,
+            135,
+            142,
+            173,
+            197
+          ],
+          "than": [
+            100,
+            177
+          ],
+          "attended": [
+            103
+          ],
+          "to": [
+            104,
+            158
+          ],
+          "them": [
+            105,
+            159
+          ],
+          "directly": [
+            106
+          ],
+          "II": [
+            108
+          ],
+          "demonstrated": [
+            109
+          ],
+          "that": [
+            110
+          ],
+          "only": [
+            111
+          ],
+          "certain": [
+            112
+          ],
+          "events": [
+            114
+          ],
+          "(thinking": [
+            115
+          ],
+          "fun": [
+            116
+          ],
+          "things)": [
+            117
+          ],
+          "served": [
+            118
+          ],
+          "as": [
+            119,
+            130
+          ],
+          "effective": [
+            120
+          ],
+          "ideational": [
+            121
+          ],
+          "distractors": [
+            122
+          ],
+          "Thinking": [
+            123
+          ],
+          "sad": [
+            124
+          ],
+          "thoughts": [
+            125
+          ],
+          "produced": [
+            126
+          ],
+          "short": [
+            127
+          ],
+          "times,": [
+            129
+          ],
+          "did": [
+            131
+          ],
+          "thinking": [
+            132
+          ],
+          "about": [
+            133,
+            171
+          ],
+          "themselves": [
+            136
+          ],
+          "III": [
+            139
+          ],
+          "not": [
+            144
+          ],
+          "physically": [
+            145
+          ],
+          "available": [
+            146
+          ],
+          "direct": [
+            148
+          ],
+          "attention": [
+            149,
+            157
+          ],
+          "during": [
+            150
+          ],
+          "period,": [
+            153
+          ],
+          "children's": [
+            156
+          ],
+          "cogmtively": [
+            160
+          ],
+          "was": [
+            161
+          ],
+          "manipulated": [
+            162
+          ],
+          "by": [
+            163
+          ],
+          "prior": [
+            164
+          ],
+          "instructions": [
+            165
+          ],
+          "While": [
+            166
+          ],
+          "waited,": [
+            169
+          ],
+          "cognitions": [
+            170
+          ],
+          "significantly": [
+            174
+          ],
+          "reduced,": [
+            175
+          ],
+          "rather": [
+            176
+          ],
+          "enhanced,": [
+            178
+          ],
+          "their": [
+            182
+          ],
+          "Overall,": [
+            186
+          ],
+          "enhanced": [
+            192
+          ],
+          "salience": [
+            194
+          ],
+          "shortened": [
+            198
+          ],
+          "voluntary": [
+            202,
+            224
+          ],
+          "delay,": [
+            203
+          ],
+          "while": [
+            204
+          ],
+          "distractions": [
+            205
+          ],
+          "rewards,": [
+            208
+          ],
+          "overtly": [
+            209
+          ],
+          "cogmtively,": [
+            211
+          ],
+          "facilitated": [
+            212
+          ],
+          "The": [
+            214
+          ],
+          "results": [
+            215
+          ],
+          "permit": [
+            216
+          ],
+          "remterpretatio": [
+            218
+          ],
+          "n": [
+            219
+          ],
+          "basic": [
+            221
+          ],
+          "self-control": [
+            229
+          ]
+        }
+      },
+      {
+        "id": "https://openalex.org/W3212604410",
+        "doi": "https://doi.org/10.1109/tkde.2021.3126456",
+        "title": "A General Survey on Attention Mechanisms in Deep Learning",
+        "publication_year": 2021,
+        "publication_date": "2021-11-09",
+        "cited_by_count": 596,
+        "open_access": {
+          "is_oa": true,
+          "oa_status": "green",
+          "oa_url": "https://pure.eur.nl/en/publications/0bd2c718-88ec-42b7-a5ac-81256a768854",
+          "any_repository_has_fulltext": true
+        },
+        "authorships": [
+          {
+            "author_position": "first",
+            "author": {
+              "id": "https://openalex.org/A5039212271",
+              "display_name": "Gianni Brauwers",
+              "orcid": "https://orcid.org/0000-0001-6550-6588"
+            },
+            "institutions": [
+              {
+                "id": "https://openalex.org/I913958620",
+                "display_name": "Erasmus University Rotterdam",
+                "ror": "https://ror.org/057w15z03",
+                "country_code": "NL",
+                "type": "education",
+                "lineage": [
+                  "https://openalex.org/I913958620"
+                ]
+              }
+            ],
+            "countries": [
+              "NL"
+            ],
+            "is_corresponding": true,
+            "raw_author_name": "Gianni Brauwers",
+            "raw_affiliation_strings": [
+              "Erasmus School of Economics, Erasmus University Rotterdam, Rotterdam, DR, The Netherlands"
+            ],
+            "affiliations": [
+              {
+                "raw_affiliation_string": "Erasmus School of Economics, Erasmus University Rotterdam, Rotterdam, DR, The Netherlands",
+                "institution_ids": [
+                  "https://openalex.org/I913958620"
+                ]
+              }
+            ]
+          },
+          {
+            "author_position": "last",
+            "author": {
+              "id": "https://openalex.org/A5044867921",
+              "display_name": "Flavius Frăsincar",
+              "orcid": "https://orcid.org/0000-0002-8031-758X"
+            },
+            "institutions": [
+              {
+                "id": "https://openalex.org/I913958620",
+                "display_name": "Erasmus University Rotterdam",
+                "ror": "https://ror.org/057w15z03",
+                "country_code": "NL",
+                "type": "education",
+                "lineage": [
+                  "https://openalex.org/I913958620"
+                ]
+              }
+            ],
+            "countries": [
+              "NL"
+            ],
+            "is_corresponding": false,
+            "raw_author_name": "Flavius Frasincar",
+            "raw_affiliation_strings": [
+              "Erasmus School of Economics, Erasmus University Rotterdam, Rotterdam, DR, The Netherlands"
+            ],
+            "affiliations": [
+              {
+                "raw_affiliation_string": "Erasmus School of Economics, Erasmus University Rotterdam, Rotterdam, DR, The Netherlands",
+                "institution_ids": [
+                  "https://openalex.org/I913958620"
+                ]
+              }
+            ]
+          }
+        ],
+        "primary_topic": {
+          "id": "https://openalex.org/T11307",
+          "display_name": "Domain Adaptation and Few-Shot Learning",
+          "score": 0.9998000264167786,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1702",
+            "display_name": "Artificial Intelligence"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        "topics": [
+          {
+            "id": "https://openalex.org/T11307",
+            "display_name": "Domain Adaptation and Few-Shot Learning",
+            "score": 0.9998000264167786,
+            "subfield": {
+              "id": "https://openalex.org/subfields/1702",
+              "display_name": "Artificial Intelligence"
+            },
+            "field": {
+              "id": "https://openalex.org/fields/17",
+              "display_name": "Computer Science"
+            },
+            "domain": {
+              "id": "https://openalex.org/domains/3",
+              "display_name": "Physical Sciences"
+            }
+          },
+          {
+            "id": "https://openalex.org/T10036",
+            "display_name": "Advanced Neural Network Applications",
+            "score": 0.9994999766349792,
+            "subfield": {
+              "id": "https://openalex.org/subfields/1707",
+              "display_name": "Computer Vision and Pattern Recognition"
+            },
+            "field": {
+              "id": "https://openalex.org/fields/17",
+              "display_name": "Computer Science"
+            },
+            "domain": {
+              "id": "https://openalex.org/domains/3",
+              "display_name": "Physical Sciences"
+            }
+          },
+          {
+            "id": "https://openalex.org/T11714",
+            "display_name": "Multimodal Machine Learning Applications",
+            "score": 0.9993000030517578,
+            "subfield": {
+              "id": "https://openalex.org/subfields/1707",
+              "display_name": "Computer Vision and Pattern Recognition"
+            },
+            "field": {
+              "id": "https://openalex.org/fields/17",
+              "display_name": "Computer Science"
+            },
+            "domain": {
+              "id": "https://openalex.org/domains/3",
+              "display_name": "Physical Sciences"
+            }
+          }
+        ],
+        "abstract_inverted_index": {
+          "Attention": [
+            0
+          ],
+          "is": [
+            1,
+            98
+          ],
+          "an": [
+            2,
+            25
+          ],
+          "important": [
+            3,
+            30
+          ],
+          "mechanism": [
+            4
+          ],
+          "that": [
+            5
+          ],
+          "can": [
+            6
+          ],
+          "be": [
+            7
+          ],
+          "employed": [
+            8
+          ],
+          "for": [
+            9,
+            67
+          ],
+          "a": [
+            10,
+            46,
+            50,
+            57
+          ],
+          "variety": [
+            11
+          ],
+          "of": [
+            12,
+            27,
+            45,
+            49,
+            60,
+            79,
+            95
+          ],
+          "deep": [
+            13
+          ],
+          "learning": [
+            14
+          ],
+          "models": [
+            15,
+            70,
+            81,
+            97
+          ],
+          "across": [
+            16
+          ],
+          "many": [
+            17
+          ],
+          "different": [
+            18
+          ],
+          "domains": [
+            19
+          ],
+          "and": [
+            20,
+            56,
+            73
+          ],
+          "tasks.": [
+            21
+          ],
+          "This": [
+            22
+          ],
+          "survey": [
+            23
+          ],
+          "provides": [
+            24
+          ],
+          "overview": [
+            26
+          ],
+          "the": [
+            28,
+            35,
+            64,
+            77,
+            84,
+            93
+          ],
+          "most": [
+            29
+          ],
+          "attention": [
+            31,
+            39,
+            52,
+            61,
+            69,
+            80,
+            96
+          ],
+          "mechanisms": [
+            32,
+            40
+          ],
+          "proposed": [
+            33,
+            85
+          ],
+          "in": [
+            34,
+            92
+          ],
+          "literature.": [
+            36
+          ],
+          "The": [
+            37
+          ],
+          "various": [
+            38,
+            65
+          ],
+          "are": [
+            41,
+            71,
+            87
+          ],
+          "explained": [
+            42
+          ],
+          "by": [
+            43
+          ],
+          "means": [
+            44
+          ],
+          "framework": [
+            47,
+            86
+          ],
+          "consisting": [
+            48
+          ],
+          "general": [
+            51
+          ],
+          "model,": [
+            53
+          ],
+          "uniform": [
+            54
+          ],
+          "notation,": [
+            55
+          ],
+          "comprehensive": [
+            58
+          ],
+          "taxonomy": [
+            59
+          ],
+          "mechanisms.": [
+            62
+          ],
+          "Furthermore,": [
+            63
+          ],
+          "measures": [
+            66
+          ],
+          "evaluating": [
+            68
+          ],
+          "reviewed,": [
+            72
+          ],
+          "methods": [
+            74
+          ],
+          "to": [
+            75
+          ],
+          "characterize": [
+            76
+          ],
+          "structure": [
+            78
+          ],
+          "based": [
+            82
+          ],
+          "on": [
+            83
+          ],
+          "discussed.": [
+            88
+          ],
+          "Last,": [
+            89
+          ],
+          "future": [
+            90
+          ],
+          "work": [
+            91
+          ],
+          "field": [
+            94
+          ],
+          "considered.": [
+            99
+          ]
+        }
+      },
+      {
+        "id": "https://openalex.org/W2968734407",
+        "doi": "https://doi.org/10.1021/acs.jmedchem.9b00959",
+        "title": "Pushing the Boundaries of Molecular Representation for Drug Discovery with the Graph Attention Mechanism",
+        "publication_year": 2019,
+        "publication_date": "2019-08-13",
+        "cited_by_count": 977,
+        "open_access": {
+          "is_oa": false,
+          "oa_status": "closed",
+          "oa_url": null,
+          "any_repository_has_fulltext": false
+        },
+        "authorships": [
+          {
+            "author_position": "first",
+            "author": {
+              "id": "https://openalex.org/A5073414026",
+              "display_name": "Zhaoping Xiong",
+              "orcid": "https://orcid.org/0000-0001-5041-9385"
+            },
+            "institutions": [
+              {
+                "id": "https://openalex.org/I30809798",
+                "display_name": "ShanghaiTech University",
+                "ror": "https://ror.org/030bhh786",
+                "country_code": "CN",
+                "type": "education",
+                "lineage": [
+                  "https://openalex.org/I30809798"
+                ]
+              },
+              {
+                "id": "https://openalex.org/I4210112820",
+                "display_name": "Shanghai Institute of Materia Medica",
+                "ror": "https://ror.org/022syn853",
+                "country_code": "CN",
+                "type": "facility",
+                "lineage": [
+                  "https://openalex.org/I19820366",
+                  "https://openalex.org/I4210112820"
+                ]
+              },
+              {
+                "id": "https://openalex.org/I19820366",
+                "display_name": "Chinese Academy of Sciences",
+                "ror": "https://ror.org/034t30j35",
+                "country_code": "CN",
+                "type": "funder",
+                "lineage": [
+                  "https://openalex.org/I19820366"
+                ]
+              },
+              {
+                "id": "https://openalex.org/I4210165038",
+                "display_name": "University of Chinese Academy of Sciences",
+                "ror": "https://ror.org/05qbk4x57",
+                "country_code": "CN",
+                "type": "education",
+                "lineage": [
+                  "https://openalex.org/I19820366",
+                  "https://openalex.org/I4210165038"
+                ]
+              }
+            ],
+            "countries": [
+              "CN"
+            ],
+            "is_corresponding": false,
+            "raw_author_name": "Zhaoping Xiong",
+            "raw_affiliation_strings": [
+              "Drug Discovery and Design Center, State Key Laboratory of Drug Research, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, 555 Zuchongzhi Road, Shanghai 201203, China",
+              "Shanghai Institute for Advanced Immunochemical Studies, and School of Life Science and Technology, ShanghaiTech University, Shanghai 200031, China",
+              "University of Chinese Academy of Sciences, No. 19A Yuquan Road, Beijing 100049, China"
+            ],
+            "affiliations": [
+              {
+                "raw_affiliation_string": "Drug Discovery and Design Center, State Key Laboratory of Drug Research, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, 555 Zuchongzhi Road, Shanghai 201203, China",
+                "institution_ids": [
+                  "https://openalex.org/I4210112820",
+                  "https://openalex.org/I19820366"
+                ]
+              },
+              {
+                "raw_affiliation_string": "Shanghai Institute for Advanced Immunochemical Studies, and School of Life Science and Technology, ShanghaiTech University, Shanghai 200031, China",
+                "institution_ids": [
+                  "https://openalex.org/I30809798"
+                ]
+              },
+              {
+                "raw_affiliation_string": "University of Chinese Academy of Sciences, No. 19A Yuquan Road, Beijing 100049, China",
+                "institution_ids": [
+                  "https://openalex.org/I4210165038"
+                ]
+              }
+            ]
+          },
+          {
+            "author_position": "middle",
+            "author": {
+              "id": "https://openalex.org/A5026206371",
+              "display_name": "Dingyan Wang",
+              "orcid": "https://orcid.org/0000-0003-2964-7425"
+            },
+            "institutions": [
+              {
+                "id": "https://openalex.org/I19820366",
+                "display_name": "Chinese Academy of Sciences",
+                "ror": "https://ror.org/034t30j35",
+                "country_code": "CN",
+                "type": "funder",
+                "lineage": [
+                  "https://openalex.org/I19820366"
+                ]
+              },
+              {
+                "id": "https://openalex.org/I4210165038",
+                "display_name": "University of Chinese Academy of Sciences",
+                "ror": "https://ror.org/05qbk4x57",
+                "country_code": "CN",
+                "type": "education",
+                "lineage": [
+                  "https://openalex.org/I19820366",
+                  "https://openalex.org/I4210165038"
+                ]
+              },
+              {
+                "id": "https://openalex.org/I4210112820",
+                "display_name": "Shanghai Institute of Materia Medica",
+                "ror": "https://ror.org/022syn853",
+                "country_code": "CN",
+                "type": "facility",
+                "lineage": [
+                  "https://openalex.org/I19820366",
+                  "https://openalex.org/I4210112820"
+                ]
+              }
+            ],
+            "countries": [
+              "CN"
+            ],
+            "is_corresponding": false,
+            "raw_author_name": "Dingyan Wang",
+            "raw_affiliation_strings": [
+              "Drug Discovery and Design Center, State Key Laboratory of Drug Research, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, 555 Zuchongzhi Road, Shanghai 201203, China",
+              "University of Chinese Academy of Sciences, No. 19A Yuquan Road, Beijing 100049, China"
+            ],
+            "affiliations": [
+              {
+                "raw_affiliation_string": "Drug Discovery and Design Center, State Key Laboratory of Drug Research, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, 555 Zuchongzhi Road, Shanghai 201203, China",
+                "institution_ids": [
+                  "https://openalex.org/I4210112820",
+                  "https://openalex.org/I19820366"
+                ]
+              },
+              {
+                "raw_affiliation_string": "University of Chinese Academy of Sciences, No. 19A Yuquan Road, Beijing 100049, China",
+                "institution_ids": [
+                  "https://openalex.org/I4210165038"
+                ]
+              }
+            ]
+          },
+          {
+            "author_position": "middle",
+            "author": {
+              "id": "https://openalex.org/A5100321203",
+              "display_name": "Xiaohong Liu",
+              "orcid": "https://orcid.org/0000-0002-6050-9592"
+            },
+            "institutions": [
+              {
+                "id": "https://openalex.org/I30809798",
+                "display_name": "ShanghaiTech University",
+                "ror": "https://ror.org/030bhh786",
+                "country_code": "CN",
+                "type": "education",
+                "lineage": [
+                  "https://openalex.org/I30809798"
+                ]
+              },
+              {
+                "id": "https://openalex.org/I19820366",
+                "display_name": "Chinese Academy of Sciences",
+                "ror": "https://ror.org/034t30j35",
+                "country_code": "CN",
+                "type": "funder",
+                "lineage": [
+                  "https://openalex.org/I19820366"
+                ]
+              },
+              {
+                "id": "https://openalex.org/I4210112820",
+                "display_name": "Shanghai Institute of Materia Medica",
+                "ror": "https://ror.org/022syn853",
+                "country_code": "CN",
+                "type": "facility",
+                "lineage": [
+                  "https://openalex.org/I19820366",
+                  "https://openalex.org/I4210112820"
+                ]
+              }
+            ],
+            "countries": [
+              "CN"
+            ],
+            "is_corresponding": false,
+            "raw_author_name": "Xiaohong Liu",
+            "raw_affiliation_strings": [
+              "Drug Discovery and Design Center, State Key Laboratory of Drug Research, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, 555 Zuchongzhi Road, Shanghai 201203, China",
+              "Shanghai Institute for Advanced Immunochemical Studies, and School of Life Science and Technology, ShanghaiTech University, Shanghai 200031, China"
+            ],
+            "affiliations": [
+              {
+                "raw_affiliation_string": "Drug Discovery and Design Center, State Key Laboratory of Drug Research, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, 555 Zuchongzhi Road, Shanghai 201203, China",
+                "institution_ids": [
+                  "https://openalex.org/I4210112820",
+                  "https://openalex.org/I19820366"
+                ]
+              },
+              {
+                "raw_affiliation_string": "Shanghai Institute for Advanced Immunochemical Studies, and School of Life Science and Technology, ShanghaiTech University, Shanghai 200031, China",
+                "institution_ids": [
+                  "https://openalex.org/I30809798"
+                ]
+              }
+            ]
+          },
+          {
+            "author_position": "middle",
+            "author": {
+              "id": "https://openalex.org/A5089956242",
+              "display_name": "Feisheng Zhong",
+              "orcid": null
+            },
+            "institutions": [
+              {
+                "id": "https://openalex.org/I4210112820",
+                "display_name": "Shanghai Institute of Materia Medica",
+                "ror": "https://ror.org/022syn853",
+                "country_code": "CN",
+                "type": "facility",
+                "lineage": [
+                  "https://openalex.org/I19820366",
+                  "https://openalex.org/I4210112820"
+                ]
+              },
+              {
+                "id": "https://openalex.org/I19820366",
+                "display_name": "Chinese Academy of Sciences",
+                "ror": "https://ror.org/034t30j35",
+                "country_code": "CN",
+                "type": "funder",
+                "lineage": [
+                  "https://openalex.org/I19820366"
+                ]
+              },
+              {
+                "id": "https://openalex.org/I4210165038",
+                "display_name": "University of Chinese Academy of Sciences",
+                "ror": "https://ror.org/05qbk4x57",
+                "country_code": "CN",
+                "type": "education",
+                "lineage": [
+                  "https://openalex.org/I19820366",
+                  "https://openalex.org/I4210165038"
+                ]
+              }
+            ],
+            "countries": [
+              "CN"
+            ],
+            "is_corresponding": false,
+            "raw_author_name": "Feisheng Zhong",
+            "raw_affiliation_strings": [
+              "Drug Discovery and Design Center, State Key Laboratory of Drug Research, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, 555 Zuchongzhi Road, Shanghai 201203, China",
+              "University of Chinese Academy of Sciences, No. 19A Yuquan Road, Beijing 100049, China"
+            ],
+            "affiliations": [
+              {
+                "raw_affiliation_string": "Drug Discovery and Design Center, State Key Laboratory of Drug Research, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, 555 Zuchongzhi Road, Shanghai 201203, China",
+                "institution_ids": [
+                  "https://openalex.org/I4210112820",
+                  "https://openalex.org/I19820366"
+                ]
+              },
+              {
+                "raw_affiliation_string": "University of Chinese Academy of Sciences, No. 19A Yuquan Road, Beijing 100049, China",
+                "institution_ids": [
+                  "https://openalex.org/I4210165038"
+                ]
+              }
+            ]
+          },
+          {
+            "author_position": "middle",
+            "author": {
+              "id": "https://openalex.org/A5113282700",
+              "display_name": "Xiaozhe Wan",
+              "orcid": null
+            },
+            "institutions": [
+              {
+                "id": "https://openalex.org/I4210165038",
+                "display_name": "University of Chinese Academy of Sciences",
+                "ror": "https://ror.org/05qbk4x57",
+                "country_code": "CN",
+                "type": "education",
+                "lineage": [
+                  "https://openalex.org/I19820366",
+                  "https://openalex.org/I4210165038"
+                ]
+              },
+              {
+                "id": "https://openalex.org/I19820366",
+                "display_name": "Chinese Academy of Sciences",
+                "ror": "https://ror.org/034t30j35",
+                "country_code": "CN",
+                "type": "funder",
+                "lineage": [
+                  "https://openalex.org/I19820366"
+                ]
+              },
+              {
+                "id": "https://openalex.org/I4210112820",
+                "display_name": "Shanghai Institute of Materia Medica",
+                "ror": "https://ror.org/022syn853",
+                "country_code": "CN",
+                "type": "facility",
+                "lineage": [
+                  "https://openalex.org/I19820366",
+                  "https://openalex.org/I4210112820"
+                ]
+              }
+            ],
+            "countries": [
+              "CN"
+            ],
+            "is_corresponding": false,
+            "raw_author_name": "Xiaozhe Wan",
+            "raw_affiliation_strings": [
+              "Drug Discovery and Design Center, State Key Laboratory of Drug Research, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, 555 Zuchongzhi Road, Shanghai 201203, China",
+              "University of Chinese Academy of Sciences, No. 19A Yuquan Road, Beijing 100049, China"
+            ],
+            "affiliations": [
+              {
+                "raw_affiliation_string": "Drug Discovery and Design Center, State Key Laboratory of Drug Research, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, 555 Zuchongzhi Road, Shanghai 201203, China",
+                "institution_ids": [
+                  "https://openalex.org/I4210112820",
+                  "https://openalex.org/I19820366"
+                ]
+              },
+              {
+                "raw_affiliation_string": "University of Chinese Academy of Sciences, No. 19A Yuquan Road, Beijing 100049, China",
+                "institution_ids": [
+                  "https://openalex.org/I4210165038"
+                ]
+              }
+            ]
+          },
+          {
+            "author_position": "middle",
+            "author": {
+              "id": "https://openalex.org/A5046574920",
+              "display_name": "Xutong Li",
+              "orcid": "https://orcid.org/0000-0001-9547-0643"
+            },
+            "institutions": [
+              {
+                "id": "https://openalex.org/I4210112820",
+                "display_name": "Shanghai Institute of Materia Medica",
+                "ror": "https://ror.org/022syn853",
+                "country_code": "CN",
+                "type": "facility",
+                "lineage": [
+                  "https://openalex.org/I19820366",
+                  "https://openalex.org/I4210112820"
+                ]
+              },
+              {
+                "id": "https://openalex.org/I4210165038",
+                "display_name": "University of Chinese Academy of Sciences",
+                "ror": "https://ror.org/05qbk4x57",
+                "country_code": "CN",
+                "type": "education",
+                "lineage": [
+                  "https://openalex.org/I19820366",
+                  "https://openalex.org/I4210165038"
+                ]
+              },
+              {
+                "id": "https://openalex.org/I19820366",
+                "display_name": "Chinese Academy of Sciences",
+                "ror": "https://ror.org/034t30j35",
+                "country_code": "CN",
+                "type": "funder",
+                "lineage": [
+                  "https://openalex.org/I19820366"
+                ]
+              }
+            ],
+            "countries": [
+              "CN"
+            ],
+            "is_corresponding": false,
+            "raw_author_name": "Xutong Li",
+            "raw_affiliation_strings": [
+              "Drug Discovery and Design Center, State Key Laboratory of Drug Research, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, 555 Zuchongzhi Road, Shanghai 201203, China",
+              "University of Chinese Academy of Sciences, No. 19A Yuquan Road, Beijing 100049, China"
+            ],
+            "affiliations": [
+              {
+                "raw_affiliation_string": "Drug Discovery and Design Center, State Key Laboratory of Drug Research, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, 555 Zuchongzhi Road, Shanghai 201203, China",
+                "institution_ids": [
+                  "https://openalex.org/I4210112820",
+                  "https://openalex.org/I19820366"
+                ]
+              },
+              {
+                "raw_affiliation_string": "University of Chinese Academy of Sciences, No. 19A Yuquan Road, Beijing 100049, China",
+                "institution_ids": [
+                  "https://openalex.org/I4210165038"
+                ]
+              }
+            ]
+          },
+          {
+            "author_position": "middle",
+            "author": {
+              "id": "https://openalex.org/A5100696183",
+              "display_name": "Zhaojun Li",
+              "orcid": "https://orcid.org/0000-0002-2755-7592"
+            },
+            "institutions": [
+              {
+                "id": "https://openalex.org/I4210112820",
+                "display_name": "Shanghai Institute of Materia Medica",
+                "ror": "https://ror.org/022syn853",
+                "country_code": "CN",
+                "type": "facility",
+                "lineage": [
+                  "https://openalex.org/I19820366",
+                  "https://openalex.org/I4210112820"
+                ]
+              },
+              {
+                "id": "https://openalex.org/I19820366",
+                "display_name": "Chinese Academy of Sciences",
+                "ror": "https://ror.org/034t30j35",
+                "country_code": "CN",
+                "type": "funder",
+                "lineage": [
+                  "https://openalex.org/I19820366"
+                ]
+              }
+            ],
+            "countries": [
+              "CN"
+            ],
+            "is_corresponding": false,
+            "raw_author_name": "Zhaojun Li",
+            "raw_affiliation_strings": [
+              "Drug Discovery and Design Center, State Key Laboratory of Drug Research, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, 555 Zuchongzhi Road, Shanghai 201203, China"
+            ],
+            "affiliations": [
+              {
+                "raw_affiliation_string": "Drug Discovery and Design Center, State Key Laboratory of Drug Research, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, 555 Zuchongzhi Road, Shanghai 201203, China",
+                "institution_ids": [
+                  "https://openalex.org/I4210112820",
+                  "https://openalex.org/I19820366"
+                ]
+              }
+            ]
+          },
+          {
+            "author_position": "middle",
+            "author": {
+              "id": "https://openalex.org/A5113516187",
+              "display_name": "Xiaomin Luo",
+              "orcid": "https://orcid.org/0000-0003-0426-3417"
+            },
+            "institutions": [
+              {
+                "id": "https://openalex.org/I4210112820",
+                "display_name": "Shanghai Institute of Materia Medica",
+                "ror": "https://ror.org/022syn853",
+                "country_code": "CN",
+                "type": "facility",
+                "lineage": [
+                  "https://openalex.org/I19820366",
+                  "https://openalex.org/I4210112820"
+                ]
+              },
+              {
+                "id": "https://openalex.org/I19820366",
+                "display_name": "Chinese Academy of Sciences",
+                "ror": "https://ror.org/034t30j35",
+                "country_code": "CN",
+                "type": "funder",
+                "lineage": [
+                  "https://openalex.org/I19820366"
+                ]
+              }
+            ],
+            "countries": [
+              "CN"
+            ],
+            "is_corresponding": false,
+            "raw_author_name": "Xiaomin Luo",
+            "raw_affiliation_strings": [
+              "Drug Discovery and Design Center, State Key Laboratory of Drug Research, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, 555 Zuchongzhi Road, Shanghai 201203, China"
+            ],
+            "affiliations": [
+              {
+                "raw_affiliation_string": "Drug Discovery and Design Center, State Key Laboratory of Drug Research, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, 555 Zuchongzhi Road, Shanghai 201203, China",
+                "institution_ids": [
+                  "https://openalex.org/I4210112820",
+                  "https://openalex.org/I19820366"
+                ]
+              }
+            ]
+          },
+          {
+            "author_position": "middle",
+            "author": {
+              "id": "https://openalex.org/A5105978526",
+              "display_name": "Kaixian Chen",
+              "orcid": "https://orcid.org/0000-0001-9497-0689"
+            },
+            "institutions": [
+              {
+                "id": "https://openalex.org/I19820366",
+                "display_name": "Chinese Academy of Sciences",
+                "ror": "https://ror.org/034t30j35",
+                "country_code": "CN",
+                "type": "funder",
+                "lineage": [
+                  "https://openalex.org/I19820366"
+                ]
+              },
+              {
+                "id": "https://openalex.org/I30809798",
+                "display_name": "ShanghaiTech University",
+                "ror": "https://ror.org/030bhh786",
+                "country_code": "CN",
+                "type": "education",
+                "lineage": [
+                  "https://openalex.org/I30809798"
+                ]
+              },
+              {
+                "id": "https://openalex.org/I4210112820",
+                "display_name": "Shanghai Institute of Materia Medica",
+                "ror": "https://ror.org/022syn853",
+                "country_code": "CN",
+                "type": "facility",
+                "lineage": [
+                  "https://openalex.org/I19820366",
+                  "https://openalex.org/I4210112820"
+                ]
+              }
+            ],
+            "countries": [
+              "CN"
+            ],
+            "is_corresponding": false,
+            "raw_author_name": "Kaixian Chen",
+            "raw_affiliation_strings": [
+              "Drug Discovery and Design Center, State Key Laboratory of Drug Research, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, 555 Zuchongzhi Road, Shanghai 201203, China",
+              "Shanghai Institute for Advanced Immunochemical Studies, and School of Life Science and Technology, ShanghaiTech University, Shanghai 200031, China"
+            ],
+            "affiliations": [
+              {
+                "raw_affiliation_string": "Drug Discovery and Design Center, State Key Laboratory of Drug Research, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, 555 Zuchongzhi Road, Shanghai 201203, China",
+                "institution_ids": [
+                  "https://openalex.org/I4210112820",
+                  "https://openalex.org/I19820366"
+                ]
+              },
+              {
+                "raw_affiliation_string": "Shanghai Institute for Advanced Immunochemical Studies, and School of Life Science and Technology, ShanghaiTech University, Shanghai 200031, China",
+                "institution_ids": [
+                  "https://openalex.org/I30809798"
+                ]
+              }
+            ]
+          },
+          {
+            "author_position": "middle",
+            "author": {
+              "id": "https://openalex.org/A5001392142",
+              "display_name": "Hualiang Jiang",
+              "orcid": "https://orcid.org/0000-0003-0656-6315"
+            },
+            "institutions": [
+              {
+                "id": "https://openalex.org/I4210112820",
+                "display_name": "Shanghai Institute of Materia Medica",
+                "ror": "https://ror.org/022syn853",
+                "country_code": "CN",
+                "type": "facility",
+                "lineage": [
+                  "https://openalex.org/I19820366",
+                  "https://openalex.org/I4210112820"
+                ]
+              },
+              {
+                "id": "https://openalex.org/I30809798",
+                "display_name": "ShanghaiTech University",
+                "ror": "https://ror.org/030bhh786",
+                "country_code": "CN",
+                "type": "education",
+                "lineage": [
+                  "https://openalex.org/I30809798"
+                ]
+              },
+              {
+                "id": "https://openalex.org/I19820366",
+                "display_name": "Chinese Academy of Sciences",
+                "ror": "https://ror.org/034t30j35",
+                "country_code": "CN",
+                "type": "funder",
+                "lineage": [
+                  "https://openalex.org/I19820366"
+                ]
+              }
+            ],
+            "countries": [
+              "CN"
+            ],
+            "is_corresponding": true,
+            "raw_author_name": "Hualiang Jiang",
+            "raw_affiliation_strings": [
+              "Drug Discovery and Design Center, State Key Laboratory of Drug Research, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, 555 Zuchongzhi Road, Shanghai 201203, China",
+              "Shanghai Institute for Advanced Immunochemical Studies, and School of Life Science and Technology, ShanghaiTech University, Shanghai 200031, China"
+            ],
+            "affiliations": [
+              {
+                "raw_affiliation_string": "Drug Discovery and Design Center, State Key Laboratory of Drug Research, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, 555 Zuchongzhi Road, Shanghai 201203, China",
+                "institution_ids": [
+                  "https://openalex.org/I4210112820",
+                  "https://openalex.org/I19820366"
+                ]
+              },
+              {
+                "raw_affiliation_string": "Shanghai Institute for Advanced Immunochemical Studies, and School of Life Science and Technology, ShanghaiTech University, Shanghai 200031, China",
+                "institution_ids": [
+                  "https://openalex.org/I30809798"
+                ]
+              }
+            ]
+          },
+          {
+            "author_position": "last",
+            "author": {
+              "id": "https://openalex.org/A5075749706",
+              "display_name": "Mingyue Zheng",
+              "orcid": "https://orcid.org/0000-0002-3323-3092"
+            },
+            "institutions": [
+              {
+                "id": "https://openalex.org/I4210112820",
+                "display_name": "Shanghai Institute of Materia Medica",
+                "ror": "https://ror.org/022syn853",
+                "country_code": "CN",
+                "type": "facility",
+                "lineage": [
+                  "https://openalex.org/I19820366",
+                  "https://openalex.org/I4210112820"
+                ]
+              },
+              {
+                "id": "https://openalex.org/I19820366",
+                "display_name": "Chinese Academy of Sciences",
+                "ror": "https://ror.org/034t30j35",
+                "country_code": "CN",
+                "type": "funder",
+                "lineage": [
+                  "https://openalex.org/I19820366"
+                ]
+              }
+            ],
+            "countries": [
+              "CN"
+            ],
+            "is_corresponding": true,
+            "raw_author_name": "Mingyue Zheng",
+            "raw_affiliation_strings": [
+              "Drug Discovery and Design Center, State Key Laboratory of Drug Research, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, 555 Zuchongzhi Road, Shanghai 201203, China"
+            ],
+            "affiliations": [
+              {
+                "raw_affiliation_string": "Drug Discovery and Design Center, State Key Laboratory of Drug Research, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, 555 Zuchongzhi Road, Shanghai 201203, China",
+                "institution_ids": [
+                  "https://openalex.org/I4210112820",
+                  "https://openalex.org/I19820366"
+                ]
+              }
+            ]
+          }
+        ],
+        "primary_topic": {
+          "id": "https://openalex.org/T10211",
+          "display_name": "Computational Drug Discovery Methods",
+          "score": 0.9998999834060669,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1703",
+            "display_name": "Computational Theory and Mathematics"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        "topics": [
+          {
+            "id": "https://openalex.org/T10211",
+            "display_name": "Computational Drug Discovery Methods",
+            "score": 0.9998999834060669,
+            "subfield": {
+              "id": "https://openalex.org/subfields/1703",
+              "display_name": "Computational Theory and Mathematics"
+            },
+            "field": {
+              "id": "https://openalex.org/fields/17",
+              "display_name": "Computer Science"
+            },
+            "domain": {
+              "id": "https://openalex.org/domains/3",
+              "display_name": "Physical Sciences"
+            }
+          },
+          {
+            "id": "https://openalex.org/T11948",
+            "display_name": "Machine Learning in Materials Science",
+            "score": 0.9998000264167786,
+            "subfield": {
+              "id": "https://openalex.org/subfields/2505",
+              "display_name": "Materials Chemistry"
+            },
+            "field": {
+              "id": "https://openalex.org/fields/25",
+              "display_name": "Materials Science"
+            },
+            "domain": {
+              "id": "https://openalex.org/domains/3",
+              "display_name": "Physical Sciences"
+            }
+          },
+          {
+            "id": "https://openalex.org/T10836",
+            "display_name": "Metabolomics and Mass Spectrometry Studies",
+            "score": 0.9693999886512756,
+            "subfield": {
+              "id": "https://openalex.org/subfields/1312",
+              "display_name": "Molecular Biology"
+            },
+            "field": {
+              "id": "https://openalex.org/fields/13",
+              "display_name": "Biochemistry, Genetics and Molecular Biology"
+            },
+            "domain": {
+              "id": "https://openalex.org/domains/1",
+              "display_name": "Life Sciences"
+            }
+          }
+        ],
+        "abstract_inverted_index": {
+          "Hunting": [
+            0
+          ],
+          "for": [
+            1,
+            14,
+            31,
+            79,
+            121
+          ],
+          "chemicals": [
+            2
+          ],
+          "with": [
+            3,
+            21
+          ],
+          "favorable": [
+            4
+          ],
+          "pharmacological,": [
+            5
+          ],
+          "toxicological,": [
+            6
+          ],
+          "and": [
+            7,
+            46,
+            60,
+            111
+          ],
+          "pharmacokinetic": [
+            8
+          ],
+          "properties": [
+            9
+          ],
+          "remains": [
+            10
+          ],
+          "a": [
+            11,
+            70,
+            84,
+            106
+          ],
+          "formidable": [
+            12
+          ],
+          "challenge": [
+            13
+          ],
+          "drug": [
+            15,
+            92
+          ],
+          "discovery.": [
+            16
+          ],
+          "Deep": [
+            17
+          ],
+          "learning": [
+            18,
+            63
+          ],
+          "provides": [
+            19
+          ],
+          "us": [
+            20,
+            138
+          ],
+          "powerful": [
+            22
+          ],
+          "tools": [
+            23
+          ],
+          "to": [
+            24,
+            88
+          ],
+          "build": [
+            25
+          ],
+          "predictive": [
+            26,
+            103
+          ],
+          "models": [
+            27
+          ],
+          "that": [
+            28,
+            82,
+            98,
+            112,
+            125
+          ],
+          "are": [
+            29
+          ],
+          "appropriate": [
+            30
+          ],
+          "the": [
+            32,
+            38
+          ],
+          "rising": [
+            33
+          ],
+          "amounts": [
+            34
+          ],
+          "of": [
+            35,
+            108
+          ],
+          "data,": [
+            36
+          ],
+          "but": [
+            37
+          ],
+          "gap": [
+            39,
+            56
+          ],
+          "between": [
+            40
+          ],
+          "what": [
+            41,
+            47,
+            113
+          ],
+          "these": [
+            42
+          ],
+          "neural": [
+            43,
+            73
+          ],
+          "networks": [
+            44
+          ],
+          "learn": [
+            45,
+            89
+          ],
+          "human": [
+            48,
+            146
+          ],
+          "beings": [
+            49
+          ],
+          "can": [
+            50,
+            136
+          ],
+          "comprehend": [
+            51
+          ],
+          "is": [
+            52,
+            116
+          ],
+          "growing.": [
+            53
+          ],
+          "Moreover,": [
+            54
+          ],
+          "this": [
+            55
+          ],
+          "may": [
+            57
+          ],
+          "induce": [
+            58
+          ],
+          "distrust": [
+            59
+          ],
+          "restrict": [
+            61
+          ],
+          "deep": [
+            62
+          ],
+          "applications": [
+            64
+          ],
+          "in": [
+            65
+          ],
+          "practice.": [
+            66
+          ],
+          "Here,": [
+            67
+          ],
+          "we": [
+            68
+          ],
+          "introduce": [
+            69
+          ],
+          "new": [
+            71
+          ],
+          "graph": [
+            72,
+            85
+          ],
+          "network": [
+            74
+          ],
+          "architecture": [
+            75
+          ],
+          "called": [
+            76
+          ],
+          "Attentive": [
+            77,
+            99,
+            122
+          ],
+          "FP": [
+            78,
+            100,
+            123
+          ],
+          "molecular": [
+            80
+          ],
+          "representation": [
+            81
+          ],
+          "uses": [
+            83
+          ],
+          "attention": [
+            86
+          ],
+          "mechanism": [
+            87
+          ],
+          "from": [
+            90,
+            132,
+            143
+          ],
+          "relevant": [
+            91
+          ],
+          "discovery": [
+            93
+          ],
+          "data": [
+            94,
+            109,
+            144
+          ],
+          "sets.": [
+            95
+          ],
+          "We": [
+            96
+          ],
+          "demonstrate": [
+            97
+          ],
+          "achieves": [
+            101
+          ],
+          "state-of-the-art": [
+            102
+          ],
+          "performances": [
+            104
+          ],
+          "on": [
+            105
+          ],
+          "variety": [
+            107
+          ],
+          "sets": [
+            110
+          ],
+          "it": [
+            114,
+            126
+          ],
+          "learns": [
+            115,
+            128
+          ],
+          "interpretable.": [
+            117
+          ],
+          "The": [
+            118
+          ],
+          "feature": [
+            119
+          ],
+          "visualization": [
+            120
+          ],
+          "suggests": [
+            124
+          ],
+          "automatically": [
+            127
+          ],
+          "nonlocal": [
+            129
+          ],
+          "intramolecular": [
+            130
+          ],
+          "interactions": [
+            131
+          ],
+          "specified": [
+            133
+          ],
+          "tasks,": [
+            134
+          ],
+          "which": [
+            135
+          ],
+          "help": [
+            137
+          ],
+          "gain": [
+            139
+          ],
+          "chemical": [
+            140
+          ],
+          "insights": [
+            141
+          ],
+          "directly": [
+            142
+          ],
+          "beyond": [
+            145
+          ],
+          "perception.": [
+            147
+          ]
+        }
+      }
+    ],
+    "group_by": []
+  }
+}

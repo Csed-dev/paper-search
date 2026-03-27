@@ -1,0 +1,48 @@
+{
+  "status_code": 200,
+  "url": "https://api.unpaywall.org/v2/10.1016/j.compstruct.2020.112680?email=test%40papersearch.dev",
+  "body": {
+    "best_oa_location": null,
+    "data_standard": 2,
+    "doi": "10.1016/j.compstruct.2020.112680",
+    "doi_url": "https://doi.org/10.1016/j.compstruct.2020.112680",
+    "first_oa_location": null,
+    "genre": "journal-article",
+    "has_repository_copy": false,
+    "is_oa": false,
+    "is_paratext": false,
+    "journal_is_in_doaj": false,
+    "journal_is_oa": false,
+    "journal_issn_l": "0263-8223",
+    "journal_issns": "0263-8223,1879-1085",
+    "journal_name": "Composite Structures",
+    "oa_locations": [],
+    "oa_locations_embargoed": [],
+    "oa_status": "closed",
+    "published_date": "2020-07-03",
+    "publisher": "Elsevier BV",
+    "title": "Dynamic buckling analysis of bi-directional functionally graded porous truncated conical shell with different boundary conditions",
+    "updated": "2025-05-22T18:42:22Z",
+    "year": 2020,
+    "z_authors": [
+      {
+        "author_position": "first",
+        "is_corresponding": true,
+        "raw_affiliation_strings": null,
+        "raw_author_name": "Farshid Allahkarami"
+      },
+      {
+        "author_position": "additional",
+        "is_corresponding": false,
+        "raw_affiliation_strings": null,
+        "raw_author_name": "Maryam Ghassabzadeh Saryazdi"
+      },
+      {
+        "author_position": "last",
+        "is_corresponding": false,
+        "raw_affiliation_strings": null,
+        "raw_author_name": "Hasan Tohidi"
+      }
+    ]
+  }
+}
