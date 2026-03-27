@@ -95,7 +95,7 @@ class OpenAlexClient:
         query: str,
         *,
         sort: str = "citations",
-        publication_year: int | None = None,
+        publication_year: str | None = None,
         per_page: int = 25,
         page: int = 1,
     ) -> list[Paper]:
@@ -112,7 +112,14 @@ class OpenAlexClient:
 
         filters = ["has_abstract:true"]
         if publication_year:
-            filters.append(f"publication_year:{publication_year}")
+            if "-" in publication_year:
+                start, end = publication_year.split("-", 1)
+                if start:
+                    filters.append(f"publication_year:>{int(start) - 1}")
+                if end:
+                    filters.append(f"publication_year:<{int(end) + 1}")
+            else:
+                filters.append(f"publication_year:{publication_year}")
         params["filter"] = ",".join(filters)
 
         response = await self._client.get("/works", params=params)

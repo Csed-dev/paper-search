@@ -7,6 +7,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/).
 
 ## [Unreleased]
 
+## [0.2.0] - 2026-03-27
+
+### Added
+
+- BibTeX output (`--bibtex`) with Semantic Scholar citation data and fallback generator
+- JSON output (`--json`) for scripting and piping
+- File output (`-o refs.bib`) to write results to any file
+- Year range filter (`--year 2022-2024`) in addition to single year
+- Config file support (`~/.config/paper-search/config.toml`) for email and API keys
+- `paper-search open` command to open a paper's PDF in the browser
+
 ## [0.1.0] - 2026-03-27
 
 ### Added

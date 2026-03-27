@@ -1,6 +1,6 @@
 from pathlib import Path
 
-from paper_search.cli import save_to_claude_dir
+from paper_search.cli import _save_to_claude_dir as save_to_claude_dir
 from paper_search.models.paper import Paper
 
 SAMPLE_PAPERS = [

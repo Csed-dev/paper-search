@@ -77,6 +77,12 @@ class TestMergePaper:
         assert "openalex" in merged.external_ids
         assert "s2" in merged.external_ids
 
+    def test_takes_s2_bibtex(self):
+        oa = Paper(title="T", source="openalex")
+        s2 = Paper(title="T", bibtex="@article{key, title={T}}", source="semantic_scholar")
+        merged = _merge_paper(oa, s2)
+        assert merged.bibtex == "@article{key, title={T}}"
+
     def test_source_is_merged(self):
         oa = Paper(title="T", source="openalex")
         s2 = Paper(title="T", source="semantic_scholar")

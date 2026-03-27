@@ -10,7 +10,7 @@ _BASE_FIELDS = [
     "fieldsOfStudy", "s2FieldsOfStudy", "publicationDate",
 ]
 
-PAPER_FIELDS = ",".join([*_BASE_FIELDS, "tldr"])
+PAPER_FIELDS = ",".join([*_BASE_FIELDS, "tldr", "citationStyles"])
 BULK_FIELDS = ",".join(_BASE_FIELDS)
 
 
@@ -34,6 +34,9 @@ def _parse_paper(paper: dict) -> Paper:
 
     tldr_data = paper.get("tldr")
     tldr = tldr_data["text"] if tldr_data else None
+
+    citation_styles = paper.get("citationStyles") or {}
+    bibtex = citation_styles.get("bibtex")
 
     fields_of_study = paper.get("fieldsOfStudy") or []
     s2_fields = paper.get("s2FieldsOfStudy") or []
@@ -62,6 +65,7 @@ def _parse_paper(paper: dict) -> Paper:
         topics=topics,
         is_open_access=paper.get("isOpenAccess", False),
         oa_locations=oa_locations,
+        bibtex=bibtex,
         source="semantic_scholar",
         external_ids=external_ids,
     )
@@ -79,7 +83,7 @@ class SemanticScholarClient:
         query: str,
         *,
         sort: str = "citations",
-        year: int | None = None,
+        year: str | None = None,
         limit: int = 25,
         offset: int = 0,
     ) -> list[Paper]:
@@ -91,7 +95,7 @@ class SemanticScholarClient:
         self,
         query: str,
         *,
-        year: int | None = None,
+        year: str | None = None,
         limit: int = 25,
         offset: int = 0,
     ) -> list[Paper]:
@@ -111,7 +115,7 @@ class SemanticScholarClient:
         self,
         query: str,
         *,
-        year: int | None = None,
+        year: str | None = None,
         limit: int = 25,
     ) -> list[Paper]:
         params: dict[str, str | int] = {

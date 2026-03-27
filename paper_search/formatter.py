@@ -1,10 +1,12 @@
+import json
+import re
 from datetime import date
 
 from paper_search.models.paper import Paper
 
 
 def format_terminal(papers: list[Paper], *, query: str, sort: str = "citations") -> str:
-    lines = [f"\n  Results for: {query}", f"  {len(papers)} papers, sorted by {sort}\n"]
+    lines = [f"  Results for: {query}", f"  {len(papers)} papers, sorted by {sort}", ""]
     for i, p in enumerate(papers, 1):
         citations = f"[{p.citation_count} citations]" if p.citation_count is not None else ""
         influential = f" ({p.influential_citation_count} influential)" if p.influential_citation_count else ""
@@ -77,3 +79,49 @@ def format_markdown(papers: list[Paper], *, query: str) -> str:
 
         lines.append("")
     return "\n".join(lines)
+
+
+def format_json(papers: list[Paper]) -> str:
+    return json.dumps([p.model_dump(exclude_none=True) for p in papers], indent=2, ensure_ascii=False)
+
+
+def _generate_bibtex_key(paper: Paper) -> str:
+    first_author = paper.authors[0].name.split()[-1] if paper.authors else "Unknown"
+    first_author = re.sub(r"[^a-zA-Z]", "", first_author)
+    year = paper.publication_year or "nd"
+    title_word = re.sub(r"[^a-zA-Z]", "", (paper.title.split() or ["untitled"])[0])
+    return f"{first_author}{year}{title_word}"
+
+
+def _generate_bibtex_entry(paper: Paper, *, key: str | None = None) -> str:
+    if key is None:
+        key = _generate_bibtex_key(paper)
+    authors = " and ".join(a.name for a in paper.authors)
+    lines = [f"@article{{{key},"]
+    lines.append(f"  title = {{{paper.title}}},")
+    if authors:
+        lines.append(f"  author = {{{authors}}},")
+    if paper.publication_year:
+        lines.append(f"  year = {{{paper.publication_year}}},")
+    if paper.doi:
+        lines.append(f"  doi = {{{paper.doi}}},")
+    if paper.abstract:
+        lines.append(f"  abstract = {{{paper.abstract[:500]}}},")
+    lines.append("}")
+    return "\n".join(lines)
+
+
+def format_bibtex(papers: list[Paper]) -> str:
+    seen_keys: dict[str, int] = {}
+    entries = []
+    for p in papers:
+        if p.bibtex:
+            entries.append(p.bibtex)
+        else:
+            key = _generate_bibtex_key(p)
+            count = seen_keys.get(key, 0)
+            seen_keys[key] = count + 1
+            if count > 0:
+                key = f"{key}{chr(ord('a') + count)}"
+            entries.append(_generate_bibtex_entry(p, key=key))
+    return "\n\n".join(entries) + "\n"

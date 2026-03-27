@@ -28,5 +28,6 @@ class Paper(BaseModel):
     fields_of_study: list[str] = []
     is_open_access: bool = False
     oa_locations: list[OALocation] = []
+    bibtex: str | None = None
     source: str = ""
     external_ids: dict[str, str] = {}
