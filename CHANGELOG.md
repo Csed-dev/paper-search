@@ -5,6 +5,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/),
 and this project adheres to [Semantic Versioning](https://semver.org/).
 
+## 0.1.0 (2026-03-27)
+
+
+### Features
+
+* initial release of paper-search CLI ([6acdca8](https://github.com/Csed-dev/paper-search/commit/6acdca839edebc9facee31628aaf8aacb788b06c))
+
 ## [Unreleased]
 
 ## [0.1.0] - 2026-03-27
