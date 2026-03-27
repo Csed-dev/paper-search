@@ -1,6 +1,6 @@
 [project]
 name = "paper-search"
-version = "0.2.0"
+version = "0.2.1"
 description = "Scientific paper search and ranking across OpenAlex, Semantic Scholar, and Unpaywall"
 license = "MIT"
 license-files = ["LICENSE"]
