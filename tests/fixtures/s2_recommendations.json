@@ -1,0 +1,264 @@
+{
+  "status_code": 200,
+  "url": "https://api.semanticscholar.org/recommendations/v1/papers/forpaper/ARXIV:1706.03762?fields=title%2Cabstract%2Cyear%2CcitationCount%2CinfluentialCitationCount%2CisOpenAccess%2CopenAccessPdf%2Cauthors%2CexternalIds%2CfieldsOfStudy%2Cs2FieldsOfStudy%2CpublicationDate&limit=5&from=all-cs",
+  "body": {
+    "recommendedPapers": [
+      {
+        "paperId": "e42e3e09af8a56381c65aa8a8ddaee63fb321936",
+        "externalIds": {
+          "DBLP": "journals/corr/abs-2003-04974",
+          "ArXiv": "2003.04974",
+          "CorpusId": 212657723
+        },
+        "title": "Transformer++",
+        "year": 2020,
+        "citationCount": 0,
+        "influentialCitationCount": 0,
+        "isOpenAccess": false,
+        "openAccessPdf": {
+          "url": "",
+          "status": null,
+          "license": null,
+          "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2003.04974, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        },
+        "fieldsOfStudy": [
+          "Computer Science",
+          "Mathematics"
+        ],
+        "s2FieldsOfStudy": [
+          {
+            "category": "Computer Science",
+            "source": "external"
+          },
+          {
+            "category": "Mathematics",
+            "source": "external"
+          },
+          {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+          }
+        ],
+        "publicationDate": "2020-03-02",
+        "authors": [
+          {
+            "authorId": "1557931630",
+            "name": "Prakhar Thapak"
+          },
+          {
+            "authorId": "1557917362",
+            "name": "P. Hore"
+          }
+        ],
+        "abstract": "Recent advancements in attention mechanisms have replaced recurrent neural networks and its variants for machine translation tasks. Transformer using attention mechanism solely achieved state-of-the-art results in sequence modeling. Neural machine translation based on the attention mechanism is parallelizable and addresses the problem of handling long-range dependencies among words in sentences more effectively than recurrent neural networks. One of the key concepts in attention is to learn three matrices, query, key, and value, where global dependencies among words are learned through linearly projecting word embeddings through these matrices. Multiple query, key, value matrices can be learned simultaneously focusing on a different subspace of the embedded dimension, which is called multi-head in Transformer. We argue that certain dependencies among words could be learned better through an intermediate context than directly modeling word-word dependencies. This could happen due to the nature of certain dependencies or lack of patterns that lend them difficult to be modeled globally using multi-head self-attention. In this work, we propose a new way of learning dependencies through a context in multi-head using convolution. This new form of multi-head attention along with the traditional form achieves better results than Transformer on the WMT 2014 English-to-German and English-to-French translation tasks. We also introduce a framework to learn POS tagging and NER information during the training of encoder which further improves results achieving a new state-of-the-art of 32.1 BLEU, better than existing best by 1.4 BLEU, on the WMT 2014 English-to-German and 44.6 BLEU, better than existing best by 1.1 BLEU, on the WMT 2014 English-to-French translation tasks. We call this Transformer++."
+      },
+      {
+        "paperId": "2e7ddc611c414a0bf26e546f8dc743a5ac5842cf",
+        "externalIds": {
+          "MAG": "2952218496",
+          "ArXiv": "1810.12427",
+          "DBLP": "conf/icmla/MedinaK18",
+          "DOI": "10.1109/ICMLA.2018.00088",
+          "CorpusId": 53111927
+        },
+        "title": "Parallel Attention Mechanisms in Neural Machine Translation",
+        "year": 2018,
+        "citationCount": 19,
+        "influentialCitationCount": 0,
+        "isOpenAccess": true,
+        "openAccessPdf": {
+          "url": "https://arxiv.org/pdf/1810.12427",
+          "status": "GREEN",
+          "license": null,
+          "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/1810.12427, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        },
+        "fieldsOfStudy": [
+          "Computer Science"
+        ],
+        "s2FieldsOfStudy": [
+          {
+            "category": "Computer Science",
+            "source": "external"
+          },
+          {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+          }
+        ],
+        "publicationDate": "2018-10-29",
+        "authors": [
+          {
+            "authorId": "144932816",
+            "name": "Julian R. Medina"
+          },
+          {
+            "authorId": "34694214",
+            "name": "J. Kalita"
+          }
+        ],
+        "abstract": "Recent papers in neural machine translation have proposed the strict use of attention mechanisms over previous standards such as recurrent and convolutional neural networks (RNNs and CNNs). We propose that by running traditionally? stacked encoding branches from encoder-decoder attention-focused architectures in parallel, that even more sequential operations can be removed from the model and thereby decrease training time. In particular, we modify the recently published attention-based architecture called Transformer by Google, by replacing sequential attention modules with parallel ones, reducing the amount of training time and substantially improving BLEU scores at the same time. Experiments over the English to German and English to French translation tasks show that our model establishes a new state of the art."
+      },
+      {
+        "paperId": "7a7fa90f9bed03b7e3070445547c66137c38f9f5",
+        "externalIds": {
+          "ACL": "2021.naacl-srw.7",
+          "DBLP": "conf/naacl/McDonaldC21",
+          "DOI": "10.18653/v1/2021.naacl-srw.7",
+          "CorpusId": 235097596
+        },
+        "title": "Syntax-Based Attention Masking for Neural Machine Translation",
+        "year": 2021,
+        "citationCount": 9,
+        "influentialCitationCount": 1,
+        "isOpenAccess": true,
+        "openAccessPdf": {
+          "url": "https://doi.org/10.18653/v1/2021.naacl-srw.7",
+          "status": "HYBRID",
+          "license": "CCBY",
+          "disclaimer": "Notice: Paper or abstract available at https://aclanthology.org/2021.naacl-srw.7, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        },
+        "fieldsOfStudy": [
+          "Computer Science"
+        ],
+        "s2FieldsOfStudy": [
+          {
+            "category": "Computer Science",
+            "source": "external"
+          },
+          {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+          },
+          {
+            "category": "Linguistics",
+            "source": "s2-fos-model"
+          }
+        ],
+        "publicationDate": null,
+        "authors": [
+          {
+            "authorId": "1852864398",
+            "name": "Colin McDonald"
+          },
+          {
+            "authorId": "145287425",
+            "name": "David Chiang"
+          }
+        ],
+        "abstract": "We present a simple method for extending transformers to source-side trees. We define a number of masks that limit self-attention based on relationships among tree nodes, and we allow each attention head to learn which mask or masks to use. On translation from English to various low-resource languages, and translation in both directions between English and German, our method always improves over simple linearization of the source-side parse tree and almost always improves over a sequence-to-sequence baseline, by up to +2.1 BLEU."
+      },
+      {
+        "paperId": "2ecb9944ff5ab08924729a6e87d90a9ff3662851",
+        "externalIds": {
+          "CorpusId": 260496523
+        },
+        "title": "We start by defining the recurrent architecture as implemented in S OCKEYE , following",
+        "year": 2018,
+        "citationCount": 0,
+        "influentialCitationCount": 0,
+        "isOpenAccess": false,
+        "openAccessPdf": {
+          "url": "",
+          "status": null,
+          "license": null
+        },
+        "fieldsOfStudy": null,
+        "s2FieldsOfStudy": [
+          {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+          }
+        ],
+        "publicationDate": null,
+        "authors": [
+          {
+            "authorId": "2521764",
+            "name": "F. Hieber"
+          },
+          {
+            "authorId": "2120874",
+            "name": "Tobias Domhan"
+          },
+          {
+            "authorId": "2157958",
+            "name": "Michael J. Denkowski"
+          },
+          {
+            "authorId": "145088328",
+            "name": "David Vilar"
+          },
+          {
+            "authorId": "2297341",
+            "name": "Artem Sokolov"
+          },
+          {
+            "authorId": "39304653",
+            "name": "Ann Clifton"
+          },
+          {
+            "authorId": "38842528",
+            "name": "Matt Post"
+          }
+        ],
+        "abstract": null
+      },
+      {
+        "paperId": "903fb78627f336841e7689c84d7b2576e9331f0a",
+        "externalIds": {
+          "DBLP": "conf/emnlp/ZengWYJ021",
+          "ACL": "2021.emnlp-main.258",
+          "DOI": "10.18653/v1/2021.emnlp-main.258",
+          "CorpusId": 243865251
+        },
+        "title": "Recurrent Attention for Neural Machine Translation",
+        "year": 2021,
+        "citationCount": 11,
+        "influentialCitationCount": 0,
+        "isOpenAccess": true,
+        "openAccessPdf": {
+          "url": "https://aclanthology.org/2021.emnlp-main.258.pdf",
+          "status": "HYBRID",
+          "license": "CCBY",
+          "disclaimer": "Notice: Paper or abstract available at https://aclanthology.org/2021.emnlp-main.258, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        },
+        "fieldsOfStudy": [
+          "Computer Science"
+        ],
+        "s2FieldsOfStudy": [
+          {
+            "category": "Computer Science",
+            "source": "external"
+          },
+          {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+          }
+        ],
+        "publicationDate": null,
+        "authors": [
+          {
+            "authorId": "50409899",
+            "name": "Jiali Zeng"
+          },
+          {
+            "authorId": "2362902",
+            "name": "Shuangzhi Wu"
+          },
+          {
+            "authorId": "79701068",
+            "name": "Yongjing Yin"
+          },
+          {
+            "authorId": "2299066139",
+            "name": "Yufan Jiang"
+          },
+          {
+            "authorId": "2135228973",
+            "name": "Mu Li"
+          }
+        ],
+        "abstract": "Recent research questions the importance of the dot-product self-attention in Transformer models and shows that most attention heads learn simple positional patterns. In this paper, we push further in this research line and propose a novel substitute mechanism for self-attention: Recurrent AtteNtion (RAN) . RAN directly learns attention weights without any token-to-token interaction and further improves their capacity by layer-to-layer interaction. Across an extensive set of experiments on 10 machine translation tasks, we find that RAN models are competitive and outperform their Transformer counterpart in certain scenarios, with fewer parameters and inference time. Particularly, when apply RAN to the decoder of Transformer, there brings consistent improvements by about +0.5 BLEU on 6 translation tasks and +1.0 BLEU on Turkish-English translation task. In addition, we conduct extensive analysis on the attention weights of RAN to confirm their reasonableness. Our RAN is a promising alternative to build more effective and efficient NMT models."
+      }
+    ]
+  }
+}
