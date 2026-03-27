@@ -2,7 +2,7 @@
 
 Search and rank scientific papers across multiple academic APIs from the command line.
 
-Queries OpenAlex (250M+ works), Semantic Scholar (215M+ papers), and Unpaywall in parallel, merges results by DOI, and outputs ranked papers with citation counts, TLDRs, and PDF links. Use `--save` to persist results to `.claude/papers.md` for use as project context in Claude Code.
+Queries OpenAlex (250M+ works), Semantic Scholar (215M+ papers), and Unpaywall in parallel, merges results by DOI, and outputs ranked papers with citation counts, TLDRs, and PDF links. Export as BibTeX or JSON, save to `.claude/papers.md` for project context, or open PDFs directly in the browser.
 
 ## Installation
 
@@ -24,26 +24,32 @@ uv sync
 # Search papers by topic, ranked by citations
 paper-search search "large language models" -n 10
 
-# Filter by year
-paper-search search "vision transformers" --year 2024 --sort date
+# Filter by year or year range
+paper-search search "vision transformers" --year 2022-2024 --sort date
 
 # Find similar papers (accepts DOI, arXiv ID, or Semantic Scholar ID)
 paper-search recommend 1706.03762 -n 10
 
-# Save results to .claude/papers.md in current project
-paper-search search "reinforcement learning" --save
+# Export as BibTeX
+paper-search search "reinforcement learning" -n 5 --bibtex -o refs.bib
 
-# Enable PDF links via Unpaywall
-paper-search search "graph neural networks" --email you@example.com
+# Export as JSON for scripting
+paper-search search "graph neural networks" --json | jq '.[].title'
+
+# Save results to .claude/papers.md in current project
+paper-search search "federated learning" --save
+
+# Open a paper's PDF in the browser
+paper-search open 1706.03762
 ```
 
 ## Example Output
 
 ```
-$ paper-search search "attention mechanism" -n 5
+$ paper-search search "attention mechanism" -n 3
 
   Results for: attention mechanism
-  5 papers, sorted by citations
+  3 papers, sorted by citations
 
     1. Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks (2016) [52848 citations] (9606 influential) [OA]
        Shaoqing Ren, Kaiming He, Ross Girshick, Jian Sun
@@ -67,15 +73,13 @@ paper-search search "query"
         |
         +--- OpenAlex ---------- phrase search, topic taxonomy, citation ranking
         |
-        +--- Semantic Scholar -- TLDR summaries, influential citations
+        +--- Semantic Scholar -- TLDR summaries, influential citations, BibTeX
         |
         +--- Unpaywall --------- OA PDF links (when --email is set)
         |
         v
-    Merge by DOI -> Rank -> Display / Save
+    Merge by DOI -> Rank -> Display / Save / Export
 ```
-
-Results include: title, authors, citation count (with influential count from S2), abstract, TLDR, DOI, PDF link, and topics.
 
 ## Commands
 
@@ -88,9 +92,12 @@ paper-search search "query" [options]
 | Flag | Description |
 |------|-------------|
 | `-n, --limit N` | Number of results (default: 10) |
-| `-y, --year YYYY` | Filter by publication year |
+| `-y, --year YEAR` | Publication year or range (e.g. `2024`, `2022-2024`) |
 | `--sort citations\|date\|relevance` | Sort order (default: citations) |
 | `--save` | Append results to `.claude/papers.md` |
+| `--bibtex` | Output BibTeX format |
+| `--json` | Output JSON format |
+| `-o FILE` | Write output to file (e.g. `-o refs.bib`) |
 | `--email EMAIL` | Enable Unpaywall PDF links + faster OpenAlex |
 | `--s2-key KEY` | Semantic Scholar API key |
 
@@ -102,16 +109,35 @@ paper-search recommend <paper_id> [options]
 
 Accepts DOI (`10.1038/s41586-023-06291-2`), arXiv ID (`1706.03762`, `hep-th/9905111`), or Semantic Scholar ID.
 
-Same `--save`, `--email`, `--s2-key`, `-n` flags as search.
+Same flags as search: `--save`, `--bibtex`, `--json`, `-o`, `--email`, `--s2-key`, `-n`.
 
-## Environment Variables
+### `open`
 
-Set these to avoid passing flags every time:
+```
+paper-search open <paper_id>
+```
+
+Opens the paper's PDF (or DOI landing page) in the default browser.
+
+## Configuration
+
+### Environment Variables
 
 | Variable | Description |
 |----------|-------------|
 | `PAPER_SEARCH_EMAIL` | Email for OpenAlex polite pool + Unpaywall |
 | `PAPER_SEARCH_S2_KEY` | Semantic Scholar API key |
+
+### Config File
+
+Create `~/.config/paper-search/config.toml` to avoid passing flags every time:
+
+```toml
+email = "you@example.com"
+s2_key = "your-semantic-scholar-api-key"
+```
+
+Priority: CLI flags > environment variables > config file.
 
 ## The `--save` Flag
 
@@ -146,7 +172,7 @@ uv run pytest
 Tests use captured API fixtures (no network calls):
 
 ```bash
-uv run pytest tests/ -v    # 71 tests, runs in <1s
+uv run pytest tests/ -v    # 80 tests, runs in <1s
 ```
 
 To refresh fixtures from live APIs:
