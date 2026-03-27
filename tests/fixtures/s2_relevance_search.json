@@ -1,0 +1,315 @@
+{
+  "status_code": 200,
+  "url": "https://api.semanticscholar.org/graph/v1/paper/search?query=attention+mechanism&fields=title%2Cabstract%2Cyear%2CcitationCount%2CinfluentialCitationCount%2CisOpenAccess%2CopenAccessPdf%2Cauthors%2CexternalIds%2CfieldsOfStudy%2Cs2FieldsOfStudy%2CpublicationDate%2Ctldr&limit=5&offset=0",
+  "body": {
+    "total": 50000,
+    "offset": 0,
+    "next": 5,
+    "data": [
+      {
+        "paperId": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+        "externalIds": {
+          "DBLP": "journals/corr/VaswaniSPUJGKP17",
+          "MAG": "2963403868",
+          "ArXiv": "1706.03762",
+          "CorpusId": 13756489
+        },
+        "title": "Attention is All you Need",
+        "year": 2017,
+        "citationCount": 170735,
+        "influentialCitationCount": 19501,
+        "isOpenAccess": false,
+        "openAccessPdf": {
+          "url": "",
+          "status": null,
+          "license": null,
+          "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/1706.03762, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        },
+        "fieldsOfStudy": [
+          "Computer Science"
+        ],
+        "s2FieldsOfStudy": [
+          {
+            "category": "Computer Science",
+            "source": "external"
+          },
+          {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+          }
+        ],
+        "publicationDate": "2017-06-12",
+        "authors": [
+          {
+            "authorId": "40348417",
+            "name": "Ashish Vaswani"
+          },
+          {
+            "authorId": "1846258",
+            "name": "Noam Shazeer"
+          },
+          {
+            "authorId": "3877127",
+            "name": "Niki Parmar"
+          },
+          {
+            "authorId": "39328010",
+            "name": "Jakob Uszkoreit"
+          },
+          {
+            "authorId": "145024664",
+            "name": "Llion Jones"
+          },
+          {
+            "authorId": "19177000",
+            "name": "Aidan N. Gomez"
+          },
+          {
+            "authorId": "40527594",
+            "name": "Lukasz Kaiser"
+          },
+          {
+            "authorId": "3443442",
+            "name": "I. Polosukhin"
+          }
+        ],
+        "abstract": "The dominant sequence transduction models are based on complex recurrent or convolutional neural networks in an encoder-decoder configuration. The best performing models also connect the encoder and decoder through an attention mechanism. We propose a new simple network architecture, the Transformer, based solely on attention mechanisms, dispensing with recurrence and convolutions entirely. Experiments on two machine translation tasks show these models to be superior in quality while being more parallelizable and requiring significantly less time to train. Our model achieves 28.4 BLEU on the WMT 2014 English-to-German translation task, improving over the existing best results, including ensembles by over 2 BLEU. On the WMT 2014 English-to-French translation task, our model establishes a new single-model state-of-the-art BLEU score of 41.8 after training for 3.5 days on eight GPUs, a small fraction of the training costs of the best models from the literature. We show that the Transformer generalizes well to other tasks by applying it successfully to English constituency parsing both with large and limited training data."
+      },
+      {
+        "paperId": "424561d8585ff8ebce7d5d07de8dbf7aae5e7270",
+        "externalIds": {
+          "MAG": "2953106684",
+          "ArXiv": "1506.01497",
+          "DBLP": "journals/pami/RenHG017",
+          "DOI": "10.1109/TPAMI.2016.2577031",
+          "CorpusId": 10328909,
+          "PubMed": "27295650"
+        },
+        "title": "Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks",
+        "year": 2015,
+        "citationCount": 71285,
+        "influentialCitationCount": 9606,
+        "isOpenAccess": true,
+        "openAccessPdf": {
+          "url": "https://arxiv.org/pdf/1506.01497",
+          "status": "GREEN",
+          "license": null,
+          "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/1506.01497, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        },
+        "fieldsOfStudy": [
+          "Computer Science",
+          "Medicine"
+        ],
+        "s2FieldsOfStudy": [
+          {
+            "category": "Computer Science",
+            "source": "external"
+          },
+          {
+            "category": "Medicine",
+            "source": "external"
+          },
+          {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+          }
+        ],
+        "publicationDate": "2015-06-04",
+        "authors": [
+          {
+            "authorId": "3080683",
+            "name": "Shaoqing Ren"
+          },
+          {
+            "authorId": "39353098",
+            "name": "Kaiming He"
+          },
+          {
+            "authorId": "2983898",
+            "name": "Ross B. Girshick"
+          },
+          {
+            "authorId": "2032184078",
+            "name": "Jian Sun"
+          }
+        ],
+        "abstract": "State-of-the-art object detection networks depend on region proposal algorithms to hypothesize object locations. Advances like SPPnet and Fast R-CNN have reduced the running time of these detection networks, exposing region proposal computation as a bottleneck. In this work, we introduce a Region Proposal Network (RPN) that shares full-image convolutional features with the detection network, thus enabling nearly cost-free region proposals. An RPN is a fully convolutional network that simultaneously predicts object bounds and objectness scores at each position. The RPN is trained end-to-end to generate high-quality region proposals, which are used by Fast R-CNN for detection. We further merge RPN and Fast R-CNN into a single network by sharing their convolutional features---using the recently popular terminology of neural networks with 'attention' mechanisms, the RPN component tells the unified network where to look. For the very deep VGG-16 model, our detection system has a frame rate of 5fps (including all steps) on a GPU, while achieving state-of-the-art object detection accuracy on PASCAL VOC 2007, 2012, and MS COCO datasets with only 300 proposals per image. In ILSVRC and COCO 2015 competitions, Faster R-CNN and RPN are the foundations of the 1st-place winning entries in several tracks. Code has been made publicly available"
+      },
+      {
+        "paperId": "c10075b3746a9f3dd5811970e93c8ca3ad39b39d",
+        "externalIds": {
+          "ArXiv": "2112.10752",
+          "DBLP": "journals/corr/abs-2112-10752",
+          "DOI": "10.1109/CVPR52688.2022.01042",
+          "CorpusId": 245335280
+        },
+        "title": "High-Resolution Image Synthesis with Latent Diffusion Models",
+        "year": 2021,
+        "citationCount": 23175,
+        "influentialCitationCount": 5189,
+        "isOpenAccess": true,
+        "openAccessPdf": {
+          "url": "https://arxiv.org/pdf/2112.10752",
+          "status": "GREEN",
+          "license": null,
+          "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2112.10752, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        },
+        "fieldsOfStudy": [
+          "Computer Science"
+        ],
+        "s2FieldsOfStudy": [
+          {
+            "category": "Computer Science",
+            "source": "external"
+          },
+          {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+          },
+          {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+          }
+        ],
+        "publicationDate": "2021-12-20",
+        "authors": [
+          {
+            "authorId": "1660819540",
+            "name": "Robin Rombach"
+          },
+          {
+            "authorId": "119843260",
+            "name": "A. Blattmann"
+          },
+          {
+            "authorId": "2053482699",
+            "name": "Dominik Lorenz"
+          },
+          {
+            "authorId": "35175531",
+            "name": "Patrick Esser"
+          },
+          {
+            "authorId": "1796707",
+            "name": "B. Ommer"
+          }
+        ],
+        "abstract": "By decomposing the image formation process into a sequential application of denoising autoencoders, diffusion models (DMs) achieve state-of-the-art synthesis results on image data and beyond. Additionally, their formulation allows for a guiding mechanism to control the image generation process without retraining. However, since these models typically operate directly in pixel space, optimization of powerful DMs often consumes hundreds of GPU days and inference is expensive due to sequential evaluations. To enable DM training on limited computational resources while retaining their quality and flexibility, we apply them in the latent space of powerful pretrained autoencoders. In contrast to previous work, training diffusion models on such a representation allows for the first time to reach a near-optimal point between complexity reduction and detail preservation, greatly boosting visual fidelity. By introducing cross-attention layers into the model architecture, we turn diffusion models into powerful and flexible generators for general conditioning inputs such as text or bounding boxes and high-resolution synthesis becomes possible in a convolutional manner. Our latent diffusion models (LDMs) achieve new state of the art scores for image inpainting and class-conditional image synthesis and highly competitive performance on various tasks, including unconditional image generation, text-to-image synthesis, and super-resolution, while significantly reducing computational requirements compared to pixel-based DMs."
+      },
+      {
+        "paperId": "ea9d2a2b4ce11aaf85136840c65f3bc9c03ab649",
+        "externalIds": {
+          "MAG": "2606251538",
+          "DBLP": "journals/jmlr/GlorotB10",
+          "CorpusId": 5575601
+        },
+        "title": "Understanding the difficulty of training deep feedforward neural networks",
+        "year": 2010,
+        "citationCount": 18988,
+        "influentialCitationCount": 909,
+        "isOpenAccess": false,
+        "openAccessPdf": {
+          "url": "",
+          "status": null,
+          "license": null,
+          "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at http://jmlr.csail.mit.edu/proceedings/papers/v9/glorot10a/glorot10a.pdf, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        },
+        "fieldsOfStudy": [
+          "Mathematics",
+          "Computer Science"
+        ],
+        "s2FieldsOfStudy": [
+          {
+            "category": "Mathematics",
+            "source": "external"
+          },
+          {
+            "category": "Computer Science",
+            "source": "external"
+          },
+          {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+          }
+        ],
+        "publicationDate": "2010-03-31",
+        "authors": [
+          {
+            "authorId": "3119801",
+            "name": "Xavier Glorot"
+          },
+          {
+            "authorId": "1751762",
+            "name": "Yoshua Bengio"
+          }
+        ],
+        "abstract": null
+      },
+      {
+        "paperId": "8993c7f442627068d84260f42c540c5065f7048d",
+        "externalIds": {
+          "MAG": "2131538393",
+          "DOI": "10.1111/J.1540-6261.1997.TB04820.X",
+          "CorpusId": 54538527
+        },
+        "title": "A Survey of Corporate Governance",
+        "year": 1996,
+        "citationCount": 16870,
+        "influentialCitationCount": 861,
+        "isOpenAccess": true,
+        "openAccessPdf": {
+          "url": "http://papers.nber.org/papers/w5554.pdf",
+          "status": "BRONZE",
+          "license": null,
+          "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1111/J.1540-6261.1997.TB04820.X?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1111/J.1540-6261.1997.TB04820.X, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        },
+        "fieldsOfStudy": [
+          "Economics",
+          "Business"
+        ],
+        "s2FieldsOfStudy": [
+          {
+            "category": "Economics",
+            "source": "external"
+          },
+          {
+            "category": "Business",
+            "source": "external"
+          },
+          {
+            "category": "Business",
+            "source": "s2-fos-model"
+          },
+          {
+            "category": "Law",
+            "source": "s2-fos-model"
+          },
+          {
+            "category": "Economics",
+            "source": "s2-fos-model"
+          }
+        ],
+        "publicationDate": "1996-04-01",
+        "authors": [
+          {
+            "authorId": "145279878",
+            "name": "A. Shleifer"
+          },
+          {
+            "authorId": "145279878",
+            "name": "A. Shleifer"
+          },
+          {
+            "authorId": "4988184",
+            "name": "Robert W. Vishny"
+          },
+          {
+            "authorId": "4988184",
+            "name": "Robert W. Vishny"
+          }
+        ],
+        "abstract": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,1252 @@
+{
+  "status_code": 200,
+  "url": "https://api.openalex.org/topics?search=machine+learning&per_page=3",
+  "body": {
+    "meta": {
+      "count": 118,
+      "db_response_time_ms": 5,
+      "page": 1,
+      "per_page": 3,
+      "groups_count": null,
+      "cost_usd": 0.001
+    },
+    "results": [
+      {
+        "id": "https://openalex.org/T11948",
+        "display_name": "Machine Learning in Materials Science",
+        "description": "This cluster of papers focuses on the application of materials informatics, machine learning, and high-throughput computational techniques to accelerate materials innovation. It encompasses topics such as property predictions, crystal structures, molecular dynamics, and data mining in the context of materials science and engineering.",
+        "keywords": [
+          "Materials Informatics",
+          "Machine Learning",
+          "High-Throughput",
+          "Computational Chemistry",
+          "Materials Discovery",
+          "Quantum Mechanics",
+          "Crystal Structures",
+          "Molecular Dynamics",
+          "Property Predictions",
+          "Data Mining"
+        ],
+        "ids": {
+          "openalex": "https://openalex.org/T11948",
+          "wikipedia": "https://en.wikipedia.org/wiki/Materials_informatics"
+        },
+        "subfield": {
+          "id": "https://openalex.org/subfields/2505",
+          "display_name": "Materials Chemistry"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/25",
+          "display_name": "Materials Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        },
+        "siblings": [
+          {
+            "id": "https://openalex.org/T10074",
+            "display_name": "Carbon Nanotubes in Composites"
+          },
+          {
+            "id": "https://openalex.org/T10079",
+            "display_name": "Nanoparticles: synthesis and applications"
+          },
+          {
+            "id": "https://openalex.org/T10083",
+            "display_name": "Graphene research and applications"
+          },
+          {
+            "id": "https://openalex.org/T10090",
+            "display_name": "ZnO doping and properties"
+          },
+          {
+            "id": "https://openalex.org/T10097",
+            "display_name": "Luminescence Properties of Advanced Materials"
+          },
+          {
+            "id": "https://openalex.org/T10107",
+            "display_name": "Ferroelectric and Piezoelectric Materials"
+          },
+          {
+            "id": "https://openalex.org/T10192",
+            "display_name": "Catalytic Processes in Materials Science"
+          },
+          {
+            "id": "https://openalex.org/T10204",
+            "display_name": "Microstructure and mechanical properties"
+          },
+          {
+            "id": "https://openalex.org/T10275",
+            "display_name": "2D Materials and Applications"
+          },
+          {
+            "id": "https://openalex.org/T10310",
+            "display_name": "Corrosion Behavior and Inhibition"
+          },
+          {
+            "id": "https://openalex.org/T10311",
+            "display_name": "Advancements in Solid Oxide Fuel Cells"
+          },
+          {
+            "id": "https://openalex.org/T10321",
+            "display_name": "Quantum Dots Synthesis And Properties"
+          },
+          {
+            "id": "https://openalex.org/T10440",
+            "display_name": "Advanced Thermoelectric Materials and Devices"
+          },
+          {
+            "id": "https://openalex.org/T10474",
+            "display_name": "Material Dynamics and Properties"
+          },
+          {
+            "id": "https://openalex.org/T10478",
+            "display_name": "Diamond and Carbon-based Materials Research"
+          },
+          {
+            "id": "https://openalex.org/T10511",
+            "display_name": "High voltage insulation and dielectric phenomena"
+          },
+          {
+            "id": "https://openalex.org/T10592",
+            "display_name": "Fusion materials and technologies"
+          },
+          {
+            "id": "https://openalex.org/T10735",
+            "display_name": "Mesoporous Materials and Catalysis"
+          },
+          {
+            "id": "https://openalex.org/T10811",
+            "display_name": "Hydrogen Storage and Materials"
+          },
+          {
+            "id": "https://openalex.org/T10865",
+            "display_name": "Shape Memory Alloy Transformations"
+          },
+          {
+            "id": "https://openalex.org/T10903",
+            "display_name": "Porphyrin and Phthalocyanine Chemistry"
+          },
+          {
+            "id": "https://openalex.org/T10922",
+            "display_name": "Magnetic Properties and Synthesis of Ferrites"
+          },
+          {
+            "id": "https://openalex.org/T11087",
+            "display_name": "Solidification and crystal growth phenomena"
+          },
+          {
+            "id": "https://openalex.org/T11162",
+            "display_name": "Enzyme Structure and Function"
+          },
+          {
+            "id": "https://openalex.org/T11169",
+            "display_name": "Silicon Nanostructures and Photoluminescence"
+          },
+          {
+            "id": "https://openalex.org/T11240",
+            "display_name": "Luminescence and Fluorescent Materials"
+          },
+          {
+            "id": "https://openalex.org/T11242",
+            "display_name": "Nuclear Materials and Properties"
+          },
+          {
+            "id": "https://openalex.org/T11277",
+            "display_name": "Thermal properties of materials"
+          },
+          {
+            "id": "https://openalex.org/T11279",
+            "display_name": "Lanthanide and Transition Metal Complexes"
+          },
+          {
+            "id": "https://openalex.org/T11286",
+            "display_name": "Polyoxometalates: Synthesis and Applications"
+          },
+          {
+            "id": "https://openalex.org/T11315",
+            "display_name": "Phase-change materials and chalcogenides"
+          },
+          {
+            "id": "https://openalex.org/T11341",
+            "display_name": "Boron and Carbon Nanomaterials Research"
+          },
+          {
+            "id": "https://openalex.org/T11342",
+            "display_name": "Carbon and Quantum Dots Applications"
+          },
+          {
+            "id": "https://openalex.org/T11442",
+            "display_name": "Titanium Alloys Microstructure and Properties"
+          },
+          {
+            "id": "https://openalex.org/T11471",
+            "display_name": "Block Copolymer Self-Assembly"
+          },
+          {
+            "id": "https://openalex.org/T11646",
+            "display_name": "Nonlocal and gradient elasticity in micro/nano structures"
+          },
+          {
+            "id": "https://openalex.org/T11699",
+            "display_name": "High-Velocity Impact and Material Behavior"
+          },
+          {
+            "id": "https://openalex.org/T11708",
+            "display_name": "Photochromic and Fluorescence Chemistry"
+          },
+          {
+            "id": "https://openalex.org/T11842",
+            "display_name": "Ultrasound and Cavitation Phenomena"
+          },
+          {
+            "id": "https://openalex.org/T11878",
+            "display_name": "Solid-state spectroscopy and crystallography"
+          },
+          {
+            "id": "https://openalex.org/T11881",
+            "display_name": "Crystallization and Solubility Studies"
+          },
+          {
+            "id": "https://openalex.org/T11887",
+            "display_name": "Quasicrystal Structures and Properties"
+          },
+          {
+            "id": "https://openalex.org/T11907",
+            "display_name": "Copper-based nanomaterials and applications"
+          },
+          {
+            "id": "https://openalex.org/T11915",
+            "display_name": "Pickering emulsions and particle stabilization"
+          },
+          {
+            "id": "https://openalex.org/T11940",
+            "display_name": "Layered Double Hydroxides Synthesis and Applications"
+          },
+          {
+            "id": "https://openalex.org/T12038",
+            "display_name": "Covalent Organic Framework Applications"
+          },
+          {
+            "id": "https://openalex.org/T12046",
+            "display_name": "MXene and MAX Phase Materials"
+          },
+          {
+            "id": "https://openalex.org/T12149",
+            "display_name": "Nanocluster Synthesis and Applications"
+          },
+          {
+            "id": "https://openalex.org/T12299",
+            "display_name": "Radiation Shielding Materials Analysis"
+          },
+          {
+            "id": "https://openalex.org/T12302",
+            "display_name": "Advanced Nanomaterials in Catalysis"
+          },
+          {
+            "id": "https://openalex.org/T12340",
+            "display_name": "Anodic Oxide Films and Nanostructures"
+          },
+          {
+            "id": "https://openalex.org/T12358",
+            "display_name": "Thermal and Kinetic Analysis"
+          },
+          {
+            "id": "https://openalex.org/T12420",
+            "display_name": "Silicone and Siloxane Chemistry"
+          },
+          {
+            "id": "https://openalex.org/T12427",
+            "display_name": "Metal Alloys Wear and Properties"
+          },
+          {
+            "id": "https://openalex.org/T12506",
+            "display_name": "Nuclear materials and radiation effects"
+          },
+          {
+            "id": "https://openalex.org/T12588",
+            "display_name": "Electronic and Structural Properties of Oxides"
+          },
+          {
+            "id": "https://openalex.org/T12613",
+            "display_name": "X-ray Diffraction in Crystallography"
+          },
+          {
+            "id": "https://openalex.org/T12875",
+            "display_name": "Thermal Expansion and Ionic Conductivity"
+          },
+          {
+            "id": "https://openalex.org/T12938",
+            "display_name": "Material Selection and Properties"
+          },
+          {
+            "id": "https://openalex.org/T13039",
+            "display_name": "Magnesium Oxide Properties and Applications"
+          },
+          {
+            "id": "https://openalex.org/T13104",
+            "display_name": "Chemical and Physical Properties of Materials"
+          },
+          {
+            "id": "https://openalex.org/T13159",
+            "display_name": "Structural mechanics and materials"
+          },
+          {
+            "id": "https://openalex.org/T13249",
+            "display_name": "Dielectric properties of ceramics"
+          },
+          {
+            "id": "https://openalex.org/T13463",
+            "display_name": "Nanoporous metals and alloys"
+          },
+          {
+            "id": "https://openalex.org/T13465",
+            "display_name": "Graphite, nuclear technology, radiation studies"
+          },
+          {
+            "id": "https://openalex.org/T13889",
+            "display_name": "Advanced Materials and Semiconductor Technologies"
+          },
+          {
+            "id": "https://openalex.org/T14076",
+            "display_name": "Material Properties and Failure Mechanisms"
+          },
+          {
+            "id": "https://openalex.org/T14184",
+            "display_name": "Metallurgy and Material Science"
+          }
+        ],
+        "relevance_score": 48754.414,
+        "works_count": 134504,
+        "cited_by_count": 964510,
+        "works_api_url": "https://api.openalex.org/works?filter=topics.id:T11948",
+        "updated_date": "2026-03-27T03:01:35",
+        "created_date": "2024-01-23T15:27:12"
+      },
+      {
+        "id": "https://openalex.org/T12254",
+        "display_name": "Machine Learning in Bioinformatics",
+        "description": "This cluster of papers focuses on the prediction of protein subcellular localization using various computational methods such as amino acid composition, machine learning algorithms like support vector machines, and the analysis of signal peptides and transmembrane topology. The research aims to improve the accuracy and reliability of predicting the subcellular location of proteins, which has significant implications for understanding protein function and cellular processes.",
+        "keywords": [
+          "Subcellular Localization",
+          "Protein",
+          "Prediction",
+          "Amino Acid Composition",
+          "Machine Learning",
+          "Support Vector Machines",
+          "Signal Peptides",
+          "Transmembrane Topology",
+          "Enzyme Subfamily Classes",
+          "Bioinformatics"
+        ],
+        "ids": {
+          "openalex": "https://openalex.org/T12254",
+          "wikipedia": "https://en.wikipedia.org/wiki/Subcellular_localization_prediction"
+        },
+        "subfield": {
+          "id": "https://openalex.org/subfields/1312",
+          "display_name": "Molecular Biology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/13",
+          "display_name": "Biochemistry, Genetics and Molecular Biology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        },
+        "siblings": [
+          {
+            "id": "https://openalex.org/T10015",
+            "display_name": "Genomics and Phylogenetic Studies"
+          },
+          {
+            "id": "https://openalex.org/T10044",
+            "display_name": "Protein Structure and Dynamics"
+          },
+          {
+            "id": "https://openalex.org/T10066",
+            "display_name": "Gut microbiota and health"
+          },
+          {
+            "id": "https://openalex.org/T10123",
+            "display_name": "DNA Repair Mechanisms"
+          },
+          {
+            "id": "https://openalex.org/T10169",
+            "display_name": "Protein Kinase Regulation and GTPase Signaling"
+          },
+          {
+            "id": "https://openalex.org/T10207",
+            "display_name": "Advanced biosensing and bioanalysis techniques"
+          },
+          {
+            "id": "https://openalex.org/T10222",
+            "display_name": "Genomics and Chromatin Dynamics"
+          },
+          {
+            "id": "https://openalex.org/T10240",
+            "display_name": "Plant tissue culture and regeneration"
+          },
+          {
+            "id": "https://openalex.org/T10268",
+            "display_name": "Developmental Biology and Gene Regulation"
+          },
+          {
+            "id": "https://openalex.org/T10269",
+            "display_name": "Epigenetics and DNA Methylation"
+          },
+          {
+            "id": "https://openalex.org/T10294",
+            "display_name": "Cell death mechanisms and regulation"
+          },
+          {
+            "id": "https://openalex.org/T10301",
+            "display_name": "Mitochondrial Function and Pathology"
+          },
+          {
+            "id": "https://openalex.org/T10303",
+            "display_name": "Photosynthetic Processes and Mechanisms"
+          },
+          {
+            "id": "https://openalex.org/T10404",
+            "display_name": "Enzyme Catalysis and Immobilization"
+          },
+          {
+            "id": "https://openalex.org/T10407",
+            "display_name": "Lipid Membrane Structure and Behavior"
+          },
+          {
+            "id": "https://openalex.org/T10422",
+            "display_name": "Angiogenesis and VEGF in Cancer"
+          },
+          {
+            "id": "https://openalex.org/T10432",
+            "display_name": "DNA and Nucleic Acid Chemistry"
+          },
+          {
+            "id": "https://openalex.org/T10441",
+            "display_name": "Muscle Physiology and Disorders"
+          },
+          {
+            "id": "https://openalex.org/T10493",
+            "display_name": "Ion channel regulation and function"
+          },
+          {
+            "id": "https://openalex.org/T10497",
+            "display_name": "Fungal and yeast genetics research"
+          },
+          {
+            "id": "https://openalex.org/T10505",
+            "display_name": "Pluripotent Stem Cells Research"
+          },
+          {
+            "id": "https://openalex.org/T10521",
+            "display_name": "RNA and protein synthesis mechanisms"
+          },
+          {
+            "id": "https://openalex.org/T10593",
+            "display_name": "Bacterial biofilms and quorum sensing"
+          },
+          {
+            "id": "https://openalex.org/T10602",
+            "display_name": "Glycosylation and Glycoproteins Research"
+          },
+          {
+            "id": "https://openalex.org/T10604",
+            "display_name": "RNA Research and Splicing"
+          },
+          {
+            "id": "https://openalex.org/T10621",
+            "display_name": "Gene Regulatory Network Analysis"
+          },
+          {
+            "id": "https://openalex.org/T10691",
+            "display_name": "Retinal Development and Disorders"
+          },
+          {
+            "id": "https://openalex.org/T10724",
+            "display_name": "Ion Transport and Channel Regulation"
+          },
+          {
+            "id": "https://openalex.org/T10725",
+            "display_name": "RNA Interference and Gene Delivery"
+          },
+          {
+            "id": "https://openalex.org/T10773",
+            "display_name": "Extracellular vesicles in disease"
+          },
+          {
+            "id": "https://openalex.org/T10836",
+            "display_name": "Metabolomics and Mass Spectrometry Studies"
+          },
+          {
+            "id": "https://openalex.org/T10878",
+            "display_name": "CRISPR and Genetic Engineering"
+          },
+          {
+            "id": "https://openalex.org/T10885",
+            "display_name": "Gene expression and cancer classification"
+          },
+          {
+            "id": "https://openalex.org/T10887",
+            "display_name": "Bioinformatics and Genomic Networks"
+          },
+          {
+            "id": "https://openalex.org/T10911",
+            "display_name": "Chemical Synthesis and Analysis"
+          },
+          {
+            "id": "https://openalex.org/T10929",
+            "display_name": "Wnt/β-catenin signaling in development and cancer"
+          },
+          {
+            "id": "https://openalex.org/T10932",
+            "display_name": "Microbial Metabolic Engineering and Bioproduction"
+          },
+          {
+            "id": "https://openalex.org/T10934",
+            "display_name": "Heat shock proteins research"
+          },
+          {
+            "id": "https://openalex.org/T10952",
+            "display_name": "PI3K/AKT/mTOR signaling in cancer"
+          },
+          {
+            "id": "https://openalex.org/T11041",
+            "display_name": "Ubiquitin and proteasome pathways"
+          },
+          {
+            "id": "https://openalex.org/T11072",
+            "display_name": "Peroxisome Proliferator-Activated Receptors"
+          },
+          {
+            "id": "https://openalex.org/T11075",
+            "display_name": "Insect Resistance and Genetics"
+          },
+          {
+            "id": "https://openalex.org/T11078",
+            "display_name": "Inflammasome and immune disorders"
+          },
+          {
+            "id": "https://openalex.org/T11124",
+            "display_name": "Protein purification and stability"
+          },
+          {
+            "id": "https://openalex.org/T11178",
+            "display_name": "Receptor Mechanisms and Signaling"
+          },
+          {
+            "id": "https://openalex.org/T11219",
+            "display_name": "Bone Metabolism and Diseases"
+          },
+          {
+            "id": "https://openalex.org/T11237",
+            "display_name": "Plant Gene Expression Analysis"
+          },
+          {
+            "id": "https://openalex.org/T11289",
+            "display_name": "Single-cell and spatial transcriptomics"
+          },
+          {
+            "id": "https://openalex.org/T11305",
+            "display_name": "Amyloidosis: Diagnosis, Treatment, Outcomes"
+          },
+          {
+            "id": "https://openalex.org/T11308",
+            "display_name": "Sphingolipid Metabolism and Signaling"
+          },
+          {
+            "id": "https://openalex.org/T11332",
+            "display_name": "Genomics, phytochemicals, and oxidative stress"
+          },
+          {
+            "id": "https://openalex.org/T11335",
+            "display_name": "Prion Diseases and Protein Misfolding"
+          },
+          {
+            "id": "https://openalex.org/T11339",
+            "display_name": "Metabolism, Diabetes, and Cancer"
+          },
+          {
+            "id": "https://openalex.org/T11385",
+            "display_name": "Natural product bioactivities and synthesis"
+          },
+          {
+            "id": "https://openalex.org/T11480",
+            "display_name": "Connexins and lens biology"
+          },
+          {
+            "id": "https://openalex.org/T11482",
+            "display_name": "RNA modifications and cancer"
+          },
+          {
+            "id": "https://openalex.org/T11501",
+            "display_name": "TGF-β signaling in diseases"
+          },
+          {
+            "id": "https://openalex.org/T11515",
+            "display_name": "Bacillus and Francisella bacterial research"
+          },
+          {
+            "id": "https://openalex.org/T11533",
+            "display_name": "Melanoma and MAPK Pathways"
+          },
+          {
+            "id": "https://openalex.org/T11559",
+            "display_name": "Retinoids in leukemia and cellular processes"
+          },
+          {
+            "id": "https://openalex.org/T11561",
+            "display_name": "Protein Hydrolysis and Bioactive Peptides"
+          },
+          {
+            "id": "https://openalex.org/T11663",
+            "display_name": "Viral Infectious Diseases and Gene Expression in Insects"
+          },
+          {
+            "id": "https://openalex.org/T11677",
+            "display_name": "Congenital heart defects research"
+          },
+          {
+            "id": "https://openalex.org/T11710",
+            "display_name": "Biomedical Text Mining and Ontologies"
+          },
+          {
+            "id": "https://openalex.org/T11736",
+            "display_name": "Histone Deacetylase Inhibitors Research"
+          },
+          {
+            "id": "https://openalex.org/T11765",
+            "display_name": "Circular RNAs in diseases"
+          },
+          {
+            "id": "https://openalex.org/T11786",
+            "display_name": "Geomagnetism and Paleomagnetism Studies"
+          },
+          {
+            "id": "https://openalex.org/T11818",
+            "display_name": "Nicotinic Acetylcholine Receptors Study"
+          },
+          {
+            "id": "https://openalex.org/T11841",
+            "display_name": "Nuclear Structure and Function"
+          },
+          {
+            "id": "https://openalex.org/T11845",
+            "display_name": "Cancer therapeutics and mechanisms"
+          },
+          {
+            "id": "https://openalex.org/T11848",
+            "display_name": "Heme Oxygenase-1 and Carbon Monoxide"
+          },
+          {
+            "id": "https://openalex.org/T11879",
+            "display_name": "Protist diversity and phylogeny"
+          },
+          {
+            "id": "https://openalex.org/T11882",
+            "display_name": "Plant biochemistry and biosynthesis"
+          },
+          {
+            "id": "https://openalex.org/T11884",
+            "display_name": "Redox biology and oxidative stress"
+          },
+          {
+            "id": "https://openalex.org/T11889",
+            "display_name": "Ginseng Biological Effects and Applications"
+          },
+          {
+            "id": "https://openalex.org/T11908",
+            "display_name": "Protein Interaction Studies and Fluorescence Analysis"
+          },
+          {
+            "id": "https://openalex.org/T11919",
+            "display_name": "dental development and anomalies"
+          },
+          {
+            "id": "https://openalex.org/T11924",
+            "display_name": "Polyamine Metabolism and Applications"
+          },
+          {
+            "id": "https://openalex.org/T11927",
+            "display_name": "Plant Reproductive Biology"
+          },
+          {
+            "id": "https://openalex.org/T11956",
+            "display_name": "Sexual Differentiation and Disorders"
+          },
+          {
+            "id": "https://openalex.org/T11970",
+            "display_name": "Molecular Biology Techniques and Applications"
+          },
+          {
+            "id": "https://openalex.org/T12009",
+            "display_name": "Hedgehog Signaling Pathway Studies"
+          },
+          {
+            "id": "https://openalex.org/T12029",
+            "display_name": "DNA and Biological Computing"
+          },
+          {
+            "id": "https://openalex.org/T12030",
+            "display_name": "S100 Proteins and Annexins"
+          },
+          {
+            "id": "https://openalex.org/T12104",
+            "display_name": "Protein Tyrosine Phosphatases"
+          },
+          {
+            "id": "https://openalex.org/T12140",
+            "display_name": "Renal and related cancers"
+          },
+          {
+            "id": "https://openalex.org/T12187",
+            "display_name": "Glutathione Transferases and Polymorphisms"
+          },
+          {
+            "id": "https://openalex.org/T12215",
+            "display_name": "Phytochemical Studies and Bioactivities"
+          },
+          {
+            "id": "https://openalex.org/T12257",
+            "display_name": "Bioactive natural compounds"
+          },
+          {
+            "id": "https://openalex.org/T12287",
+            "display_name": "Fibroblast Growth Factor Research"
+          },
+          {
+            "id": "https://openalex.org/T12360",
+            "display_name": "Plant-derived Lignans Synthesis and Bioactivity"
+          },
+          {
+            "id": "https://openalex.org/T12388",
+            "display_name": "Identification and Quantification in Food"
+          },
+          {
+            "id": "https://openalex.org/T12412",
+            "display_name": "Enzyme function and inhibition"
+          },
+          {
+            "id": "https://openalex.org/T12434",
+            "display_name": "Phosphodiesterase function and regulation"
+          },
+          {
+            "id": "https://openalex.org/T12441",
+            "display_name": "Porphyrin Metabolism and Disorders"
+          },
+          {
+            "id": "https://openalex.org/T12530",
+            "display_name": "Bioactive Natural Diterpenoids Research"
+          },
+          {
+            "id": "https://openalex.org/T12534",
+            "display_name": "Protein Degradation and Inhibitors"
+          },
+          {
+            "id": "https://openalex.org/T12561",
+            "display_name": "bioluminescence and chemiluminescence research"
+          },
+          {
+            "id": "https://openalex.org/T12566",
+            "display_name": "Nitrogen and Sulfur Effects on Brassica"
+          },
+          {
+            "id": "https://openalex.org/T12576",
+            "display_name": "vaccines and immunoinformatics approaches"
+          },
+          {
+            "id": "https://openalex.org/T12610",
+            "display_name": "RNA regulation and disease"
+          },
+          {
+            "id": "https://openalex.org/T12620",
+            "display_name": "Signaling Pathways in Disease"
+          },
+          {
+            "id": "https://openalex.org/T12668",
+            "display_name": "Yeasts and Rust Fungi Studies"
+          },
+          {
+            "id": "https://openalex.org/T12683",
+            "display_name": "Studies on Chitinases and Chitosanases"
+          },
+          {
+            "id": "https://openalex.org/T12685",
+            "display_name": "Phytochemical compounds biological activities"
+          },
+          {
+            "id": "https://openalex.org/T12688",
+            "display_name": "Microbial metabolism and enzyme function"
+          },
+          {
+            "id": "https://openalex.org/T12756",
+            "display_name": "Plant Toxicity and Pharmacological Properties"
+          },
+          {
+            "id": "https://openalex.org/T12763",
+            "display_name": "ATP Synthase and ATPases Research"
+          },
+          {
+            "id": "https://openalex.org/T12789",
+            "display_name": "Planarian Biology and Electrostimulation"
+          },
+          {
+            "id": "https://openalex.org/T12820",
+            "display_name": "Chromatin Remodeling and Cancer"
+          },
+          {
+            "id": "https://openalex.org/T12827",
+            "display_name": "Biochemical and Molecular Research"
+          },
+          {
+            "id": "https://openalex.org/T12835",
+            "display_name": "FOXO transcription factor regulation"
+          },
+          {
+            "id": "https://openalex.org/T12867",
+            "display_name": "Advanced Biosensing Techniques and Applications"
+          },
+          {
+            "id": "https://openalex.org/T12946",
+            "display_name": "Fractal and DNA sequence analysis"
+          },
+          {
+            "id": "https://openalex.org/T13012",
+            "display_name": "Coenzyme Q10 studies and effects"
+          },
+          {
+            "id": "https://openalex.org/T13047",
+            "display_name": "Pharmacological Receptor Mechanisms and Effects"
+          },
+          {
+            "id": "https://openalex.org/T13157",
+            "display_name": "Cancer-related gene regulation"
+          },
+          {
+            "id": "https://openalex.org/T13187",
+            "display_name": "Diffusion and Search Dynamics"
+          },
+          {
+            "id": "https://openalex.org/T13188",
+            "display_name": "Synthesis and bioactivity of alkaloids"
+          },
+          {
+            "id": "https://openalex.org/T13221",
+            "display_name": "Biological Activity of Diterpenoids and Biflavonoids"
+          },
+          {
+            "id": "https://openalex.org/T13223",
+            "display_name": "Connective Tissue Growth Factor Research"
+          },
+          {
+            "id": "https://openalex.org/T13326",
+            "display_name": "Biochemical and Structural Characterization"
+          },
+          {
+            "id": "https://openalex.org/T13426",
+            "display_name": "Kruppel-like factors research"
+          },
+          {
+            "id": "https://openalex.org/T13437",
+            "display_name": "Mechanisms of cancer metastasis"
+          },
+          {
+            "id": "https://openalex.org/T13454",
+            "display_name": "Phenothiazines and Benzothiazines Synthesis and Activities"
+          },
+          {
+            "id": "https://openalex.org/T13526",
+            "display_name": "14-3-3 protein interactions"
+          },
+          {
+            "id": "https://openalex.org/T13651",
+            "display_name": "Medicinal Plants and Bioactive Compounds"
+          },
+          {
+            "id": "https://openalex.org/T13725",
+            "display_name": "Pineapple and bromelain studies"
+          },
+          {
+            "id": "https://openalex.org/T13736",
+            "display_name": "Steroid Chemistry and Biochemistry"
+          },
+          {
+            "id": "https://openalex.org/T13937",
+            "display_name": "Genetics, Bioinformatics, and Biomedical Research"
+          },
+          {
+            "id": "https://openalex.org/T14049",
+            "display_name": "Plant and Fungal Species Descriptions"
+          },
+          {
+            "id": "https://openalex.org/T14065",
+            "display_name": "Biological Research and Disease Studies"
+          },
+          {
+            "id": "https://openalex.org/T14135",
+            "display_name": "Cancer and biochemical research"
+          },
+          {
+            "id": "https://openalex.org/T14285",
+            "display_name": "Biopolymer Synthesis and Applications"
+          }
+        ],
+        "relevance_score": 45358.074,
+        "works_count": 276519,
+        "cited_by_count": 689185,
+        "works_api_url": "https://api.openalex.org/works?filter=topics.id:T12254",
+        "updated_date": "2026-03-27T03:01:35",
+        "created_date": "2024-01-23T15:27:13"
+      },
+      {
+        "id": "https://openalex.org/T12072",
+        "display_name": "Machine Learning and Algorithms",
+        "description": "This cluster of papers revolves around the topic of active learning in machine learning research. It covers various aspects such as semi-supervised learning, deep learning, Gaussian processes, image classification, text categorization, batch mode active learning, statistical guarantees, and human-in-the-loop approaches.",
+        "keywords": [
+          "Active Learning",
+          "Machine Learning",
+          "Semi-supervised Learning",
+          "Deep Learning",
+          "Gaussian Processes",
+          "Image Classification",
+          "Text Categorization",
+          "Batch Mode",
+          "Statistical Guarantees",
+          "Human-in-the-loop"
+        ],
+        "ids": {
+          "openalex": "https://openalex.org/T12072",
+          "wikipedia": "https://en.wikipedia.org/wiki/Active_learning_(machine_learning)"
+        },
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        },
+        "siblings": [
+          {
+            "id": "https://openalex.org/T10020",
+            "display_name": "Quantum Information and Cryptography"
+          },
+          {
+            "id": "https://openalex.org/T10028",
+            "display_name": "Topic Modeling"
+          },
+          {
+            "id": "https://openalex.org/T10100",
+            "display_name": "Metaheuristic Optimization Algorithms Research"
+          },
+          {
+            "id": "https://openalex.org/T10126",
+            "display_name": "Logic, programming, and type systems"
+          },
+          {
+            "id": "https://openalex.org/T10181",
+            "display_name": "Natural Language Processing Techniques"
+          },
+          {
+            "id": "https://openalex.org/T10201",
+            "display_name": "Speech Recognition and Synthesis"
+          },
+          {
+            "id": "https://openalex.org/T10215",
+            "display_name": "Semantic Web and Ontologies"
+          },
+          {
+            "id": "https://openalex.org/T10237",
+            "display_name": "Cryptography and Data Security"
+          },
+          {
+            "id": "https://openalex.org/T10320",
+            "display_name": "Neural Networks and Applications"
+          },
+          {
+            "id": "https://openalex.org/T10456",
+            "display_name": "Multi-Agent Systems and Negotiation"
+          },
+          {
+            "id": "https://openalex.org/T10462",
+            "display_name": "Reinforcement Learning in Robotics"
+          },
+          {
+            "id": "https://openalex.org/T10637",
+            "display_name": "Advanced Clustering Algorithms Research"
+          },
+          {
+            "id": "https://openalex.org/T10639",
+            "display_name": "Advanced Software Engineering Methodologies"
+          },
+          {
+            "id": "https://openalex.org/T10664",
+            "display_name": "Sentiment Analysis and Opinion Mining"
+          },
+          {
+            "id": "https://openalex.org/T10682",
+            "display_name": "Quantum Computing Algorithms and Architecture"
+          },
+          {
+            "id": "https://openalex.org/T10711",
+            "display_name": "Target Tracking and Data Fusion in Sensor Networks"
+          },
+          {
+            "id": "https://openalex.org/T10764",
+            "display_name": "Privacy-Preserving Technologies in Data"
+          },
+          {
+            "id": "https://openalex.org/T10820",
+            "display_name": "Fuzzy Logic and Control Systems"
+          },
+          {
+            "id": "https://openalex.org/T10862",
+            "display_name": "AI in cancer detection"
+          },
+          {
+            "id": "https://openalex.org/T10906",
+            "display_name": "AI-based Problem Solving and Planning"
+          },
+          {
+            "id": "https://openalex.org/T10951",
+            "display_name": "Cryptographic Implementations and Security"
+          },
+          {
+            "id": "https://openalex.org/T11010",
+            "display_name": "Logic, Reasoning, and Knowledge"
+          },
+          {
+            "id": "https://openalex.org/T11130",
+            "display_name": "Coding theory and cryptography"
+          },
+          {
+            "id": "https://openalex.org/T11269",
+            "display_name": "Algorithms and Data Compression"
+          },
+          {
+            "id": "https://openalex.org/T11273",
+            "display_name": "Advanced Graph Neural Networks"
+          },
+          {
+            "id": "https://openalex.org/T11276",
+            "display_name": "Solar Radiation and Photovoltaics"
+          },
+          {
+            "id": "https://openalex.org/T11303",
+            "display_name": "Bayesian Modeling and Causal Inference"
+          },
+          {
+            "id": "https://openalex.org/T11307",
+            "display_name": "Domain Adaptation and Few-Shot Learning"
+          },
+          {
+            "id": "https://openalex.org/T11424",
+            "display_name": "Security and Verification in Computing"
+          },
+          {
+            "id": "https://openalex.org/T11512",
+            "display_name": "Anomaly Detection Techniques and Applications"
+          },
+          {
+            "id": "https://openalex.org/T11550",
+            "display_name": "Text and Document Classification Technologies"
+          },
+          {
+            "id": "https://openalex.org/T11574",
+            "display_name": "Artificial Intelligence in Games"
+          },
+          {
+            "id": "https://openalex.org/T11598",
+            "display_name": "Internet Traffic Analysis and Secure E-voting"
+          },
+          {
+            "id": "https://openalex.org/T11612",
+            "display_name": "Stochastic Gradient Optimization Techniques"
+          },
+          {
+            "id": "https://openalex.org/T11652",
+            "display_name": "Imbalanced Data Classification Techniques"
+          },
+          {
+            "id": "https://openalex.org/T11689",
+            "display_name": "Adversarial Robustness in Machine Learning"
+          },
+          {
+            "id": "https://openalex.org/T11901",
+            "display_name": "Bayesian Methods and Mixture Models"
+          },
+          {
+            "id": "https://openalex.org/T11902",
+            "display_name": "Intelligent Tutoring Systems and Adaptive Learning"
+          },
+          {
+            "id": "https://openalex.org/T11975",
+            "display_name": "Evolutionary Algorithms and Applications"
+          },
+          {
+            "id": "https://openalex.org/T12026",
+            "display_name": "Explainable Artificial Intelligence (XAI)"
+          },
+          {
+            "id": "https://openalex.org/T12031",
+            "display_name": "Speech and dialogue systems"
+          },
+          {
+            "id": "https://openalex.org/T12128",
+            "display_name": "AI in Service Interactions"
+          },
+          {
+            "id": "https://openalex.org/T12131",
+            "display_name": "Wireless Signal Modulation Classification"
+          },
+          {
+            "id": "https://openalex.org/T12157",
+            "display_name": "Geochemistry and Geologic Mapping"
+          },
+          {
+            "id": "https://openalex.org/T12260",
+            "display_name": "Educational Technology and Pedagogy"
+          },
+          {
+            "id": "https://openalex.org/T12262",
+            "display_name": "Hate Speech and Cyberbullying Detection"
+          },
+          {
+            "id": "https://openalex.org/T12380",
+            "display_name": "Authorship Attribution and Profiling"
+          },
+          {
+            "id": "https://openalex.org/T12535",
+            "display_name": "Machine Learning and Data Classification"
+          },
+          {
+            "id": "https://openalex.org/T12611",
+            "display_name": "Neural Networks and Reservoir Computing"
+          },
+          {
+            "id": "https://openalex.org/T12676",
+            "display_name": "Machine Learning and ELM"
+          },
+          {
+            "id": "https://openalex.org/T12761",
+            "display_name": "Data Stream Mining Techniques"
+          },
+          {
+            "id": "https://openalex.org/T12805",
+            "display_name": "Cognitive Science and Mapping"
+          },
+          {
+            "id": "https://openalex.org/T12814",
+            "display_name": "Gaussian Processes and Bayesian Inference"
+          },
+          {
+            "id": "https://openalex.org/T13018",
+            "display_name": "Seismology and Earthquake Studies"
+          },
+          {
+            "id": "https://openalex.org/T13062",
+            "display_name": "Cognitive Computing and Networks"
+          },
+          {
+            "id": "https://openalex.org/T13083",
+            "display_name": "Advanced Text Analysis Techniques"
+          },
+          {
+            "id": "https://openalex.org/T13398",
+            "display_name": "Data Analysis with R"
+          },
+          {
+            "id": "https://openalex.org/T13514",
+            "display_name": "Experience-Based Knowledge Management"
+          },
+          {
+            "id": "https://openalex.org/T13559",
+            "display_name": "Edcuational Technology Systems"
+          },
+          {
+            "id": "https://openalex.org/T13567",
+            "display_name": "AI and Multimedia in Education"
+          },
+          {
+            "id": "https://openalex.org/T13623",
+            "display_name": "Linguistic Studies and Language Acquisition"
+          },
+          {
+            "id": "https://openalex.org/T13629",
+            "display_name": "Text Readability and Simplification"
+          },
+          {
+            "id": "https://openalex.org/T13650",
+            "display_name": "Computational Physics and Python Applications"
+          },
+          {
+            "id": "https://openalex.org/T13674",
+            "display_name": "Computer Science and Engineering"
+          },
+          {
+            "id": "https://openalex.org/T13702",
+            "display_name": "Machine Learning in Healthcare"
+          },
+          {
+            "id": "https://openalex.org/T13734",
+            "display_name": "Advanced Computational Techniques and Applications"
+          },
+          {
+            "id": "https://openalex.org/T13851",
+            "display_name": "Law, AI, and Intellectual Property"
+          },
+          {
+            "id": "https://openalex.org/T13898",
+            "display_name": "Diverse Interdisciplinary Research Studies"
+          },
+          {
+            "id": "https://openalex.org/T13904",
+            "display_name": "Artificial Intelligence Applications"
+          },
+          {
+            "id": "https://openalex.org/T13935",
+            "display_name": "Mathematical Control Systems and Analysis"
+          },
+          {
+            "id": "https://openalex.org/T14064",
+            "display_name": "Organizational and Employee Performance"
+          },
+          {
+            "id": "https://openalex.org/T14175",
+            "display_name": "Intuitionistic Fuzzy Systems Applications"
+          },
+          {
+            "id": "https://openalex.org/T14335",
+            "display_name": "Educational Robotics and Engineering"
+          },
+          {
+            "id": "https://openalex.org/T14351",
+            "display_name": "Statistical and Computational Modeling"
+          },
+          {
+            "id": "https://openalex.org/T14381",
+            "display_name": "Psychiatry, Mental Health, Neuroscience"
+          },
+          {
+            "id": "https://openalex.org/T14413",
+            "display_name": "Advanced Technologies in Various Fields"
+          }
+        ],
+        "relevance_score": 44789.348,
+        "works_count": 35190,
+        "cited_by_count": 654067,
+        "works_api_url": "https://api.openalex.org/works?filter=topics.id:T12072",
+        "updated_date": "2026-03-27T03:01:35",
+        "created_date": "2024-01-23T15:27:12"
+      }
+    ],
+    "group_by": []
+  }
+}

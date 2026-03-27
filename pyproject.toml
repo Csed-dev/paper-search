@@ -1,0 +1,49 @@
+[project]
+name = "paper-search"
+version = "0.1.0"
+description = "Scientific paper search and ranking across OpenAlex, Semantic Scholar, and Unpaywall"
+license = "MIT"
+license-files = ["LICENSE"]
+readme = "README.md"
+requires-python = ">=3.14"
+authors = [
+    { name = "Jozef", email = "csed.dev@proton.me" },
+]
+keywords = ["scientific-papers", "academic-search", "openalex", "semantic-scholar", "citation-ranking", "literature-review"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Science/Research",
+    "Intended Audience :: Developers",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.14",
+    "Topic :: Scientific/Engineering",
+    "Typing :: Typed",
+]
+dependencies = [
+    "httpx>=0.28",
+    "pydantic>=2.10",
+]
+
+[project.urls]
+Homepage = "https://github.com/Csed-dev/paper-search"
+Repository = "https://github.com/Csed-dev/paper-search.git"
+Issues = "https://github.com/Csed-dev/paper-search/issues"
+Changelog = "https://github.com/Csed-dev/paper-search/blob/main/CHANGELOG.md"
+
+[project.scripts]
+paper-search = "paper_search.cli:main"
+
+[dependency-groups]
+dev = [
+    "pytest>=8",
+    "pytest-asyncio>=0.25",
+    "respx>=0.22",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
