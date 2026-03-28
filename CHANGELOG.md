@@ -7,6 +7,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/).
 
 ## [Unreleased]
 
+## [0.3.0] - 2026-03-28
+
+### Added
+
+- GitHub repository search with `paper-search repos`
+- Filter repos by language (`--language`) and minimum stars (`--min-stars`)
+- Sort repos by stars, forks, or update date
+- `GITHUB_TOKEN` support for higher rate limits (env var and config file)
+
+### Changed
+
+- Renamed `search` command to `papers` (alias `p`) to allow future `search` wrapper command
+
 ## [0.2.0] - 2026-03-27
 
 ### Added

@@ -81,8 +81,9 @@ def format_markdown(papers: list[Paper], *, query: str) -> str:
     return "\n".join(lines)
 
 
-def format_json(papers: list[Paper]) -> str:
-    return json.dumps([p.model_dump(exclude_none=True) for p in papers], indent=2, ensure_ascii=False)
+def format_json(data: list) -> str:
+    items = [d.model_dump(exclude_none=True) if hasattr(d, "model_dump") else d for d in data]
+    return json.dumps(items, indent=2, ensure_ascii=False)
 
 
 def _generate_bibtex_key(paper: Paper) -> str:
@@ -125,3 +126,19 @@ def format_bibtex(papers: list[Paper]) -> str:
                 key = f"{key}{chr(ord('a') + count)}"
             entries.append(_generate_bibtex_entry(p, key=key))
     return "\n\n".join(entries) + "\n"
+
+
+def format_repos_terminal(repos: list, *, query: str, sort: str = "stars") -> str:
+    from paper_search.apis.github import Repository
+    lines = [f"  Results for: {query}", f"  {len(repos)} repositories, sorted by {sort}", ""]
+    for i, r in enumerate(repos, 1):
+        desc = f" - {r.description[:70]}..." if r.description and len(r.description) > 70 else f" - {r.description}" if r.description else ""
+        lang = f" [{r.language}]" if r.language else ""
+        lines.append(f"  {i:>3}. {r.full_name} ({r.stars} stars){lang}")
+        if desc:
+            lines.append(f"       {desc.strip(' - ')}")
+        lines.append(f"       {r.url}")
+        if r.topics:
+            lines.append(f"       Topics: {', '.join(r.topics[:5])}")
+        lines.append("")
+    return "\n".join(lines)
